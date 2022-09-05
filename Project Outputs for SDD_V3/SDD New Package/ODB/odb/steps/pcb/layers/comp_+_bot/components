@@ -1,0 +1,366 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 16 4.035 1.445 90 N D8 EAST1616RGBB2 ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Diode'
+PRP Colour 'Blue, Green, Red'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://everlightamericas.com/index.php?controller=attachment&id_attachment=2426'
+PRP Device_Class_L1 'Optoelectronics'
+PRP Device_Class_L2 'LEDs'
+PRP Device_Class_L3 'unset'
+PRP Digikey_Description 'LED RGB DIFFUSED 4SMD'
+PRP Forward_Current '5mA'
+PRP Forward_Voltage '3/3/2.1V'
+PRP Height '0.45mm'
+PRP Lead_Free 'Yes'
+PRP Led_Orientation 'Top View'
+PRP Luminous_Intensity '36/140/45mcd'
+PRP Manufacturer 'Everlight'
+PRP Manufacturer_Part_Number 'EAST1616RGBB2'
+PRP Octopart 'https://octopart.com/east1616rgbb2-everlight-80328051'
+PRP Package '0'
+PRP Peak_Emmision_Wavelength '468/518/632nm'
+PRP Power_Dissipation '95/95/60mW'
+PRP Reverse_Voltage '5V'
+PRP RoHS 'TRUE'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+PRP Viewing_Angle '120°'
+PRP Wavelength '475/535/628nm'
+TOP 0 4.052716 1.476496 90 N 1 0 D8-1
+TOP 1 4.017284 1.476496 90 N 2 0 D8-2
+TOP 2 4.017284 1.413504 90 N 3 0 D8-3
+TOP 3 4.052716 1.413504 90 N 19 14 D8-4
+#
+# CMP 1
+CMP 1 2.47 0.45 0 N BT4 Curr_t2 ;0=1,1=0.0000
+TOP 0 2.47 0.45 180 N 10 1 BT4-1
+#
+# CMP 2
+CMP 1 2.56 0.45 180 N BT3 Curr_t1 ;0=1,1=0.0000
+TOP 0 2.56 0.45 0 N 22 2 BT3-1
+#
+# CMP 3
+CMP 43 4.0017712 2.02 270 N TP42 TP_1 ;0=1,1=0.0000
+TOP 0 4.001772 2.02 270 N 18 0 TP42-1
+#
+# CMP 4
+CMP 44 4.0017712 1.665 270 N TP41 Testpoint2 ;0=1,1=0.0000
+TOP 0 4.001772 1.665 270 N 80 59 TP41-1
+#
+# CMP 5
+CMP 44 4.0017712 1.736 270 N TP40 Testpoint2 ;0=1,1=0.0000
+TOP 0 4.001772 1.736 270 N 39 0 TP40-1
+#
+# CMP 6
+CMP 44 4.0017712 1.807 270 N TP39 Testpoint2 ;0=1,1=0.0000
+TOP 0 4.001772 1.807 270 N 34 0 TP39-1
+#
+# CMP 7
+CMP 44 4.0017712 1.878 270 N TP38 Testpoint2 ;0=1,1=0.0000
+TOP 0 4.001772 1.878 270 N 36 0 TP38-1
+#
+# CMP 8
+CMP 44 4.0017712 1.949 270 N TP37 Testpoint2 ;0=1,1=0.0000
+TOP 0 4.001772 1.949 270 N 35 0 TP37-1
+#
+# CMP 9
+CMP 44 2.56 2.555 270 N TP36 DBG_RX ;0=1,1=0.0000
+TOP 0 2.56 2.555 270 N 89 0 TP36-1
+#
+# CMP 10
+CMP 44 2.485 2.555 270 N TP35 DBG_TX ;0=1,1=0.0000
+TOP 0 2.485 2.555 270 N 88 0 TP35-1
+#
+# CMP 11
+CMP 44 2.255 2.525 270 N TP32 Gnd ;0=1,1=0.0000
+TOP 0 2.255 2.525 270 N 80 52 TP32-1
+#
+# CMP 12
+CMP 44 2.1800601 2.525 270 N TP31 RTS ;0=1,1=0.0000
+TOP 0 2.18006 2.525 270 N 37 0 TP31-1
+#
+# CMP 13
+CMP 44 1.1731314 0.803174 270 N TP34 DTx ;0=1,1=0.0000
+TOP 0 1.173132 0.803174 270 N 40 0 TP34-1
+#
+# CMP 14
+CMP 44 2.1051202 2.525 270 N TP30 DTR ;0=1,1=0.0000
+TOP 0 2.10512 2.525 270 N 87 0 TP30-1
+#
+# CMP 15
+CMP 44 2.0301803 2.525 270 N TP29 Rx ;0=1,1=0.0000
+TOP 0 2.03018 2.525 270 N 84 0 TP29-1
+#
+# CMP 16
+CMP 44 1.1731314 0.8704524 270 N TP33 DRx ;0=1,1=0.0000
+TOP 0 1.173132 0.870452 270 N 41 0 TP33-1
+#
+# CMP 17
+CMP 43 1.9552404 2.525 270 N TP28 Tx ;0=1,1=0.0000
+TOP 0 1.95524 2.525 270 N 83 0 TP28-1
+#
+# CMP 18
+CMP 44 1.901 0.9208453 270 N TP27 D3 ;0=1,1=0.0000
+TOP 0 1.901 0.920846 270 N 67 0 TP27-1
+#
+# CMP 19
+CMP 44 1.83 0.9208453 270 N TP26 D2 ;0=1,1=0.0000
+TOP 0 1.83 0.920846 270 N 68 0 TP26-1
+#
+# CMP 20
+CMP 44 2.185 0.9208453 270 N TP25 D1 ;0=1,1=0.0000
+TOP 0 2.185 0.920846 270 N 69 0 TP25-1
+#
+# CMP 21
+CMP 44 2.114 0.9208453 270 N TP24 D0 ;0=1,1=0.0000
+TOP 0 2.114 0.920846 270 N 70 0 TP24-1
+#
+# CMP 22
+CMP 44 1.63 0.6 270 N TP23 DET ;0=1,1=0.0000
+TOP 0 1.63 0.6 270 N 66 0 TP23-1
+#
+# CMP 23
+CMP 44 1.972 0.9208453 270 N TP22 CMD ;0=1,1=0.0000
+TOP 0 1.972 0.920846 270 N 71 0 TP22-1
+#
+# CMP 24
+CMP 44 2.043 0.9208453 270 N TP21 CLK ;0=1,1=0.0000
+TOP 0 2.043 0.920846 270 N 72 0 TP21-1
+#
+# CMP 25
+CMP 44 3.055 2.505 270 N TP20 WK_UP ;0=1,1=0.0000
+TOP 0 3.055 2.505 270 N 15 0 TP20-1
+#
+# CMP 26
+CMP 44 3.825 1.125 270 N TP19 L_G ;0=1,1=0.0000
+TOP 0 3.825 1.125 270 N 76 0 TP19-1
+#
+# CMP 27
+CMP 44 2.4778914 1.6801438 270 N TP18 RST ;0=1,1=0.0000
+TOP 0 2.477892 1.680144 270 N 39 1 TP18-1
+#
+# CMP 28
+CMP 44 3.825 1.195 270 N TP17 L_B ;0=1,1=0.0000
+TOP 0 3.825 1.195 270 N 77 0 TP17-1
+#
+# CMP 29
+CMP 44 3.4496588 2.532254 270 N TP16 Buzz_S ;0=1,1=0.0000
+TOP 0 3.449658 2.532254 270 N 101 0 TP16-1
+#
+# CMP 30
+CMP 44 3.825 1.265 270 N TP15 L_R ;0=1,1=0.0000
+TOP 0 3.825 1.265 270 N 75 0 TP15-1
+#
+# CMP 31
+CMP 44 2.835 2.44 270 N TP14 Testpoint2 ;0=1,1=0.0000
+TOP 0 2.835 2.44 270 N 80 53 TP14-1
+#
+# CMP 32
+CMP 44 2.095 2.34 270 N TP13 Testpoint2 ;0=1,1=0.0000
+TOP 0 2.095 2.34 270 N 80 54 TP13-1
+#
+# CMP 33
+CMP 44 2.71 0.45 270 N TP12 Testpoint2 ;0=1,1=0.0000
+TOP 0 2.71 0.45 270 N 80 55 TP12-1
+#
+# CMP 34
+CMP 44 3.965 0.605 270 N TP11 Testpoint2 ;0=1,1=0.0000
+TOP 0 3.965 0.605 270 N 80 56 TP11-1
+#
+# CMP 35
+CMP 43 3.82 0.44 270 N TP10 VBUS_D ;0=1,1=0.0000
+TOP 0 3.82 0.44 270 N 21 0 TP10-1
+#
+# CMP 36
+CMP 43 3.125 0.655 270 N TP9 BATT_V ;0=1,1=0.0000
+TOP 0 3.125002 0.655 270 N 102 0 TP9-1
+#
+# CMP 37
+CMP 44 3.285 0.74 270 N TP8 FAST ;0=1,1=0.0000
+TOP 0 3.285 0.74 270 N 98 0 TP8-1
+#
+# CMP 38
+CMP 44 3.6645664 0.9300486 270 N TP7 CH ;0=1,1=0.0000
+TOP 0 3.664566 0.930048 270 N 100 0 TP7-1
+#
+# CMP 39
+CMP 44 3.745 0.93 270 N TP6 PPR ;0=1,1=0.0000
+TOP 0 3.745 0.93 270 N 97 0 TP6-1
+#
+# CMP 40
+CMP 44 3.485 0.77 270 N TP5 EN ;0=1,1=0.0000
+TOP 0 3.485 0.77 270 N 99 0 TP5-1
+#
+# CMP 41
+CMP 43 2.715 0.565 270 N TP4 VBATT ;0=1,1=0.0000
+TOP 0 2.715 0.565 270 N 22 3 TP4-1
+#
+# CMP 42
+CMP 43 3.7 0.57 270 N TP3 VBUS ;0=1,1=0.0000
+TOP 0 3.7 0.57 270 N 20 1 TP3-1
+#
+# CMP 43
+CMP 44 2.65 0.93 270 N TP2 3V3_PG ;0=1,1=0.0000
+TOP 0 2.65 0.93 270 N 38 0 TP2-1
+#
+# CMP 44
+CMP 43 1.9962354 2.34 270 N TP1 3V3 ;0=1,1=0.0000
+TOP 0 1.996236 2.34 270 N 19 12 TP1-1
+#
+# CMP 45
+CMP 14 3.9766929 2.4100394 90 N SW1 D3SK-A1R ;0=1,1=0.0000
+PRP Actuator_Length '3.5mm'
+PRP Case/Package 'SMD/SMT'
+PRP Connector_Type 'J-Bend'
+PRP Contact_Resistance '3R'
+PRP Current_Rating '1mA'
+PRP Electrical_Life '100000Cycles'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '5V'
+PRP Mechanical_Life '150000Cycles'
+PRP Min_Operating_Temperature '-25°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Terminals '2'
+PRP Operating_Force '41gf'
+PRP Operating_Position '0.185inch'
+PRP Orientation 'Right Angle'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Switch_Function 'Off-Mom'
+PRP Termination 'Gull Wing'
+PRP Throw_Configuration 'SPST'
+PRP Voltage_Rating_(DC) '5V'
+PRP Weight '0.000705oz'
+TOP 0 3.98063 2.475 90 N 19 13 SW1-1
+TOP 1 3.983582 2.345078 90 N 63 0 SW1-2
+TOP 2 3.935354 2.41004 90 N 0 74 SW1-empty-1
+TOP 3 4.014094 2.41004 90 N 0 73 SW1-empty-2
+#
+# CMP 46
+CMP 32 1.16 0.419685 90 N R37 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 1.16 0.434448 180 N 42 0 R37-1
+TOP 1 1.16 0.404922 180 N 51 0 R37-2
+#
+# CMP 47
+CMP 40 3.2982245 0.45256 90 N R8 470 ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA3AEB471V'
+TOP 0 3.298226 0.48012 180 N 100 1 R8-1
+TOP 1 3.298226 0.425002 180 N 53 0 R8-2
+#
+# CMP 48
+CMP 40 3.0907074 0.45256 90 N R7 470 ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA3AEB471V'
+TOP 0 3.090708 0.48012 180 N 97 1 R7-1
+TOP 1 3.090708 0.425002 180 N 54 0 R7-2
+#
+# CMP 49
+CMP 40 3.385 0.4525591 270 N R6 470 ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA3AEB471V'
+TOP 0 3.385 0.425 0 N 55 0 R6-1
+TOP 1 3.385 0.48012 0 N 80 57 R6-2
+#
+# CMP 50
+CMP 26 1.21 0.42 90 N D7 LED_Blue ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 1.21 0.439686 90 N 80 58 D7-1
+TOP 1 1.21 0.400316 90 N 51 1 D7-2
+#
+# CMP 51
+CMP 26 3.225 0.435 90 N D3 LED_Blue ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 3.225 0.454684 90 N 53 1 D3-1
+TOP 1 3.225 0.415314 90 N 22 4 D3-2
+#
+# CMP 52
+CMP 26 3.165 0.435 90 N D2 LED_Blue ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 3.165 0.454684 90 N 54 1 D2-1
+TOP 1 3.165 0.415314 90 N 22 5 D2-2
+#
+# CMP 53
+CMP 26 3.46 0.44 270 N D1 LED_Blue ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Color 'Blue'
+PRP Dominant_Wavelength '465nm'
+PRP Forward_Voltage '3.1V'
+PRP Height '0.6mm'
+PRP Length '1mm'
+PRP Lens_Color 'Colorless'
+PRP Lens_Size '0.5mm'
+PRP Lens_Style 'Flat'
+PRP Lens_Transparency 'Clear'
+PRP Luminous_Intensity '85mcd'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Test_Current '20mA'
+PRP Viewing_Angle '140°'
+PRP Width '0.5mm'
+TOP 0 3.46 0.420316 270 N 55 1 D1-1
+TOP 1 3.46 0.459686 270 N 20 2 D1-2
+#

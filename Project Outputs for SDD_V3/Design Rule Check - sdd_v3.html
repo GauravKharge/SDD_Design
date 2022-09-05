@@ -1,0 +1,497 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">4/21/2021</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">3:37:33 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc" class="file"><acronym title="C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc">C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">8</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Waived Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">28</td></tr>
+</table>
+</td>
+</table><a name="IDGW5VDSUHFF0THVT0ZLGZRWEPHDLRK5X2ILBMHENDHPBHE5RONPSF"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDLGGWKTNWFIZZC1NARGXDZE24PZFMJYPFNZMMSGUTOINLPPSCW0I">Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P015')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDMMT0N32US2DJBXLICKC5PCRNDHF23U1GSZ5GY2OC3DOLET5I44ZD">Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P015')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDJWOPWNL315ZCJARD2ORYALXJRLJM0SCJL0ZQDOHZ043SIBU3GY2N">Clearance Constraint (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID14VRS0R1T4XNJB2CAT50S14ZSBOEDRWGLNFX1ZH5FWZQUZ1532C">Clearance Constraint (Gap=0.25mm) (InPolygon),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID1MMBMZ35KAI1FCQBUMWLJVKJCKP5MBW5GTVIZ1HXAQIF0JFFNYYD">Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GND_L01_P015')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDVUWU54AT4YEBH5P0QTITTQEQ2P2GA3JJHMRPXGHUTNDLMYIEKH0E">Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GND_L01_P015')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDO03HDCWFJGLOHZ5KUYR2KNPAUCQZINSHQS55SVI2T1KBWJR4HZ5I">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDQUSPTOQVJBCWPMSICIT5QTEZ0NWCBLHKQ31GMUN2FQR5X4SWJC5L">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID5HPRF2AOGHHEIKA1BUYCDC4KTOGLN5VCK4IX4YCJJT0VI0HHMNAH">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPY5QWDNXOCT4CYIFVI1JCSJ33LFR33LVIRXZWVPW2VLVOO2NRD1D">Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.4mm) (InNetClass('PWR'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID23E2HM5B2JNHOUFKZETHAQJVM2X5N0QFW1XLPDG2XIQ4ULHZSYG">Width Constraint (Min=0.2mm) (Max=0.4mm) (Preferred=0.254mm) (InNetClass('AUX_PWR'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJDI2BK3QE2SJDYYOTWVJ1ATVND2YQQBDPF1WOFGW0VGB3MPBQY0K">Width Constraint (Min=0.1mm) (Max=1mm) (Preferred=0.15mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIX1MJ4OB0A1BKC0J5JLVN2XA1H2V45KV5QUXZ4HBQPRAQOKZMPEH">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDH31HMYEJCJ0JGCZANT4Q3JRCGNURI3QQTJJH2SMMLPFXY4JTV2FJ">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDTV4WT4TTMFOFEGPF0O2HT0MZEO2LQA2DL3BJGPPWNDTCKOSTZJE">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJ5UW0UYIQAUFPTNQCX3NF5MMVN0F1WPA3NZXDEP3ROVMLCGHL1WD">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4TQU3JDWP0UBKYBNPXZMU4HFMFUJFOI13E10UK44EHCYME0DIZP">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4O5KNQFN1RAFDPO33202BAJYQKRY1ZJIX53Z2LKETOPTFWKZ2IWP">Matched Lengths(Tolerance=25.4mm) (InNetClass('SDCARD'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDL3HUDFJIA01NILO4HKQF2E5BZNG4W2EKHVX44VEA2USMWGGMNQZL">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">8</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Waived Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDKDQVRHZ14DQKWJ2ZJOAWVQXPFG2X0EVGMGNMZFRTFG20HLD1FBC">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">1</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVFYUOYII3YZTCGB2GW2TAI2AFMVSROYTJUT2EOENMEI5REN0DKEI">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">27</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">28</td>
+</tr>
+</table><br><a name="IDV3ENJ13BRIANNTKTJGAIWEXEGS4PJZS4ICLAEPWPYH4USOOBWPH"><h2>Rule Violations</h2></a><a name="IDJWOPWNL315ZCJARD2ORYALXJRLJM0SCJL0ZQDOHZ043SIBU3GY2N"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2591.258mil|Location2.X=2594.883mil|Location1.Y=804.526mil|Location2.Y=808.15mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2591.258mil|Location2.X=2594.883mil|Location1.Y=804.526mil|Location2.Y=808.15mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Pad L1-1(67.564mm,21.15mm) on Top Layer And Track (65.614mm,20.481mm)(69.514mm,20.481mm) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2725.117mil|Location2.X=2728.741mil|Location1.Y=774.526mil|Location2.Y=778.15mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2725.117mil|Location2.X=2728.741mil|Location1.Y=774.526mil|Location2.Y=778.15mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Pad L1-2(67.564mm,19.05mm) on Top Layer And Track (65.614mm,19.719mm)(69.514mm,19.719mm) on Keep-Out Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDTV4WT4TTMFOFEGPF0O2HT0MZEO2LQA2DL3BJGPPWNDTCKOSTZJE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.537mil|Location2.X=2883.203mil|Location1.Y=805.853mil|Location2.Y=813.519mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2875.537mil|Location2.X=2883.203mil|Location1.Y=805.853mil|Location2.Y=813.519mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Via (73.136mm,20.566mm) from Top Layer to Bottom Layer And Via (73.136mm,20.566mm) from Top Layer to Bottom Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3735.167mil|Location2.X=3742.833mil|Location1.Y=708.805mil|Location2.Y=716.471mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3735.167mil|Location2.X=3742.833mil|Location1.Y=708.805mil|Location2.Y=716.471mil|Absolute=True">Hole To Hole Clearance Constraint: (Collision &lt; 0.254mm) Between Via (94.971mm,18.101mm) from Top Layer to Bottom Layer And Via (95.079mm,18.101mm) from Top Layer to Bottom Layer Pad/Via Touching Holes</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDJ5UW0UYIQAUFPTNQCX3NF5MMVN0F1WPA3NZXDEP3ROVMLCGHL1WD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4000.595mil|Location2.X=4011.845mil|Location1.Y=2466.423mil|Location2.Y=2477.673mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4000.595mil|Location2.X=4011.845mil|Location1.Y=2466.423mil|Location2.Y=2477.673mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.2mm &lt; 0.254mm) Between Pad SW1-1(101.108mm,62.865mm) on Bottom Layer And Track (101.958mm,62.79mm)(102.858mm,62.79mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.2mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4000.595mil|Location2.X=4011.845mil|Location1.Y=2342.407mil|Location2.Y=2353.657mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4000.595mil|Location2.X=4011.845mil|Location1.Y=2342.407mil|Location2.Y=2353.657mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.2mm &lt; 0.254mm) Between Pad SW1-2(101.183mm,59.565mm) on Bottom Layer And Track (101.958mm,59.64mm)(102.858mm,59.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.2mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1189.24mil|Location2.X=1200.49mil|Location1.Y=1389.375mil|Location2.Y=1400.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1189.24mil|Location2.X=1200.49mil|Location1.Y=1389.375mil|Location2.Y=1400.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.217mm &lt; 0.254mm) Between Pad SW3-3(30.783mm,35.753mm) on Top Layer And Text "EN" (28.448mm,35.433mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.217mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1719.966mil|Location2.X=1731.216mil|Location1.Y=2303.51mil|Location2.Y=2314.76mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1719.966mil|Location2.X=1731.216mil|Location1.Y=2303.51mil|Location2.Y=2314.76mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.224mm &lt; 0.254mm) Between Pad SW4-2(43.368mm,58.977mm) on Top Layer And Text "BOOT" (44.069mm,57.912mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.224mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDZOX4BQPLKDNZEKFPDPXI5BWBGHNVJ22HAP0GUPLZU2VQKC2UPAIF"><h2>Waived Violations</h2></a><a name="IDKDQVRHZ14DQKWJ2ZJOAWVQXPFG2X0EVGMGNMZFRTFG20HLD1FBC"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3919.73mil|Location2.X=4054.838mil|Location1.Y=382.918mil|Location2.Y=518.026mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3919.73mil|Location2.X=4054.838mil|Location1.Y=382.918mil|Location2.Y=518.026mil|Absolute=True">Hole Size Constraint: (3.4mm &gt; 2.54mm) Pad Free-1(101.277mm,11.442mm) on Multi-Layer Actual Hole Size = 3.4mm</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:27 PM<br>Intentional</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDVFYUOYII3YZTCGB2GW2TAI2AFMVSROYTJUT2EOENMEI5REN0DKEI"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="waived">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.533mil|Location2.X=3220.783mil|Location1.Y=2510.389mil|Location2.Y=2521.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.533mil|Location2.X=3220.783mil|Location1.Y=2510.389mil|Location2.Y=2521.639mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C12-1(81.44mm,64.319mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:31 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.533mil|Location2.X=3220.783mil|Location1.Y=2542.869mil|Location2.Y=2554.119mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3209.533mil|Location2.X=3220.783mil|Location1.Y=2542.869mil|Location2.Y=2554.119mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C12-1(81.44mm,64.319mm) on Top Layer And Track (81.315mm,64.944mm)(82.515mm,64.944mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:38 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3229.217mil|Location2.X=3240.467mil|Location1.Y=2510.389mil|Location2.Y=2521.639mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3229.217mil|Location2.X=3240.467mil|Location1.Y=2510.389mil|Location2.Y=2521.639mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C12-2(82.39mm,64.319mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:41 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3229.217mil|Location2.X=3240.467mil|Location1.Y=2542.869mil|Location2.Y=2554.119mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3229.217mil|Location2.X=3240.467mil|Location1.Y=2542.869mil|Location2.Y=2554.119mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C12-2(82.39mm,64.319mm) on Top Layer And Track (81.315mm,64.944mm)(82.515mm,64.944mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1800.575mil|Location2.X=1811.825mil|Location1.Y=1833.745mil|Location2.Y=1844.995mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1800.575mil|Location2.X=1811.825mil|Location1.Y=1833.745mil|Location2.Y=1844.995mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C20-1(45.475mm,46.99mm) on Top Layer And Track (46.09mm,45.759mm)(46.09mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1800.575mil|Location2.X=1811.825mil|Location1.Y=1798.301mil|Location2.Y=1809.551mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1800.575mil|Location2.X=1811.825mil|Location1.Y=1798.301mil|Location2.Y=1809.551mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C21-1(45.475mm,46.09mm) on Top Layer And Track (46.09mm,45.759mm)(46.09mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2898.135mil|Location2.X=2909.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2898.135mil|Location2.X=2909.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C3-1(74.168mm,26.67mm) on Top Layer And Track (73.543mm,25.595mm)(73.543mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2930.615mil|Location2.X=2941.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2930.615mil|Location2.X=2941.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C3-1(74.168mm,26.67mm) on Top Layer And Track (74.793mm,25.595mm)(74.793mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2898.135mil|Location2.X=2909.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2898.135mil|Location2.X=2909.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C3-2(74.168mm,25.72mm) on Top Layer And Track (73.543mm,25.595mm)(73.543mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2930.615mil|Location2.X=2941.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2930.615mil|Location2.X=2941.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C3-2(74.168mm,25.72mm) on Top Layer And Track (74.793mm,25.595mm)(74.793mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.135mil|Location2.X=2969.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.135mil|Location2.X=2969.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C4-1(75.692mm,26.67mm) on Top Layer And Track (75.067mm,25.595mm)(75.067mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2990.615mil|Location2.X=3001.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2990.615mil|Location2.X=3001.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C4-1(75.692mm,26.67mm) on Top Layer And Track (76.317mm,25.595mm)(76.317mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.135mil|Location2.X=2969.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2958.135mil|Location2.X=2969.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C4-2(75.692mm,25.72mm) on Top Layer And Track (75.067mm,25.595mm)(75.067mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2990.615mil|Location2.X=3001.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2990.615mil|Location2.X=3001.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C4-2(75.692mm,25.72mm) on Top Layer And Track (76.317mm,25.595mm)(76.317mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.135mil|Location2.X=3029.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.135mil|Location2.X=3029.385mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C5-1(77.216mm,26.67mm) on Top Layer And Track (76.591mm,25.595mm)(76.591mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3050.615mil|Location2.X=3061.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3050.615mil|Location2.X=3061.865mil|Location1.Y=1035.517mil|Location2.Y=1046.767mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C5-1(77.216mm,26.67mm) on Top Layer And Track (77.841mm,25.595mm)(77.841mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.135mil|Location2.X=3029.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3018.135mil|Location2.X=3029.385mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C5-2(77.216mm,25.72mm) on Top Layer And Track (76.591mm,25.595mm)(76.591mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3050.615mil|Location2.X=3061.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3050.615mil|Location2.X=3061.865mil|Location1.Y=1015.831mil|Location2.Y=1027.081mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.225mm &lt; 0.254mm) Between Pad C5-2(77.216mm,25.72mm) on Top Layer And Track (77.841mm,25.595mm)(77.841mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3231.186mil|Location2.X=3242.436mil|Location1.Y=2493.16mil|Location2.Y=2504.41mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3231.186mil|Location2.X=3242.436mil|Location1.Y=2493.16mil|Location2.Y=2504.41mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R25-1(82.465mm,63.119mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3201.659mil|Location2.X=3212.909mil|Location1.Y=2493.16mil|Location2.Y=2504.41mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3201.659mil|Location2.X=3212.909mil|Location1.Y=2493.16mil|Location2.Y=2504.41mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R25-2(81.715mm,63.119mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1888.672mil|Location2.X=1899.922mil|Location1.Y=1838.548mil|Location2.Y=1849.798mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1888.672mil|Location2.X=1899.922mil|Location1.Y=1838.548mil|Location2.Y=1849.798mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R55-1(48.54mm,47.117mm) on Top Layer And Track (47.89mm,45.759mm)(47.89mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1888.672mil|Location2.X=1899.922mil|Location1.Y=1798.548mil|Location2.Y=1809.798mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1888.672mil|Location2.X=1899.922mil|Location1.Y=1798.548mil|Location2.Y=1809.798mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R56-1(48.54mm,46.101mm) on Top Layer And Track (47.89mm,45.759mm)(47.89mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2144.296mil|Location2.X=2155.546mil|Location1.Y=1473.857mil|Location2.Y=1485.107mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2144.296mil|Location2.X=2155.546mil|Location1.Y=1473.857mil|Location2.Y=1485.107mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R57-1(54.908mm,37.179mm) on Top Layer And Track (53.952mm,37.804mm)(55.014mm,37.804mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2134.454mil|Location2.X=2145.704mil|Location1.Y=1473.857mil|Location2.Y=1485.107mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2134.454mil|Location2.X=2145.704mil|Location1.Y=1473.857mil|Location2.Y=1485.107mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.25mm &lt; 0.254mm) Between Pad R57-2(54.058mm,37.179mm) on Top Layer And Track (53.952mm,37.804mm)(55.014mm,37.804mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2012.406mil|Location2.X=2020.072mil|Location1.Y=2346.214mil|Location2.Y=2353.88mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2012.406mil|Location2.X=2020.072mil|Location1.Y=2346.214mil|Location2.Y=2353.88mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad TP1-1(50.704mm,59.436mm) on Bottom Layer And Text "RXD" (51.975mm,62.357mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2089.309mil|Location2.X=2096.976mil|Location1.Y=2355.27mil|Location2.Y=2362.936mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2089.309mil|Location2.X=2096.976mil|Location1.Y=2355.27mil|Location2.Y=2362.936mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (Collision &lt; 0.254mm) Between Pad TP13-1(53.213mm,59.436mm) on Bottom Layer And Text "DTR" (54.166mm,62.357mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3569.127mil|Location2.X=3580.377mil|Location1.Y=603.22mil|Location2.Y=614.47mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3569.127mil|Location2.X=3580.377mil|Location1.Y=603.22mil|Location2.Y=614.47mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.212mm &lt; 0.254mm) Between Pad U2-1(91.231mm,15.723mm) on Top Layer And Text "U2" (90.266mm,14.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]</acronym></a><br>Waived by Zong Chok at 3/22/2021 12:12:53 PM<br>Intentional</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

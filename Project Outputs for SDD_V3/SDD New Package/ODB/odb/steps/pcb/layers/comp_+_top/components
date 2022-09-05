@@ -1,0 +1,2370 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 17 0.906811 2.0793701 270 N MD1 ESP32-WROOM-32D ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Bandwidth '72MHz'
+PRP Category 'UNK'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf'
+PRP Data_Rate '150Mbits/s'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'RF Semiconductors and Devices'
+PRP Device_Class_L3 'Transceivers'
+PRP Digikey_Description 'WIFI MODULE 32MBITS SPI FLASH'
+PRP Height '3.2mm'
+PRP Interface 'I2C,SPI,UART,Ethernet,I2S,Other'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Espressif Systems'
+PRP Manufacturer_Part_Number 'ESP32-WROOM-32D'
+PRP Max_Frequency '2484MHz'
+PRP Max_Supply_Voltage '3.6V'
+PRP Min_Supply_Voltage '3V'
+PRP Mouser_Description 'Wi-Fi/BT BLE Module ESP32-D0WD, SPI Flash, UART, P'
+PRP Nominal_Supply_Current '500mA'
+PRP Number_Of_Adc_Channels '16'
+PRP Number_Of_Gpio '32'
+PRP Octopart 'https://octopart.com/esp32-wroom-32d-espressif+systems-91040050'
+PRP Package 'ESP32-WROOM-32D'
+PRP RoHS 'TRUE'
+PRP Sensitivity '-98dBm'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 0.699724 1.744724 270 N 80 134 MD1-1
+TOP 1 0.749724 1.744724 270 N 19 41 MD1-2
+TOP 2 0.799724 1.744724 270 N 85 5 MD1-3
+TOP 3 0.849724 1.744724 270 N 0 30 MD1-4
+TOP 4 0.899724 1.744724 270 N 0 29 MD1-5
+TOP 5 0.949724 1.744724 270 N 0 28 MD1-6
+TOP 6 0.999724 1.744724 270 N 0 27 MD1-7
+TOP 7 1.049724 1.744724 270 N 0 26 MD1-8
+TOP 8 1.099724 1.744724 270 N 0 25 MD1-9
+TOP 9 1.149724 1.744724 270 N 0 24 MD1-10
+TOP 10 1.199724 1.744724 270 N 0 23 MD1-11
+TOP 11 1.249724 1.744724 270 N 0 22 MD1-12
+TOP 12 1.299724 1.744724 270 N 0 21 MD1-13
+TOP 13 1.349724 1.744724 270 N 0 20 MD1-14
+TOP 14 1.389094 1.85437 270 N 80 131 MD1-15
+TOP 15 1.389094 1.90437 270 N 0 14 MD1-16
+TOP 16 1.389094 1.95437 270 N 31 1 MD1-17
+TOP 17 1.389094 2.00437 270 N 30 1 MD1-18
+TOP 18 1.389094 2.05437 270 N 0 13 MD1-19
+TOP 19 1.389094 2.10437 270 N 0 12 MD1-20
+TOP 20 1.389094 2.15437 270 N 0 11 MD1-21
+TOP 21 1.389094 2.20437 270 N 0 10 MD1-22
+TOP 22 1.389094 2.25437 270 N 0 9 MD1-23
+TOP 23 1.389094 2.30437 270 N 0 8 MD1-24
+TOP 24 1.349724 2.414016 270 N 86 2 MD1-25
+TOP 25 1.299724 2.414016 270 N 0 19 MD1-26
+TOP 26 1.249724 2.414016 270 N 29 1 MD1-27
+TOP 27 1.199724 2.414016 270 N 28 1 MD1-28
+TOP 28 1.149724 2.414016 270 N 0 18 MD1-29
+TOP 29 1.099724 2.414016 270 N 82 0 MD1-30
+TOP 30 1.049724 2.414016 270 N 14 1 MD1-31
+TOP 31 0.999724 2.414016 270 N 0 17 MD1-32
+TOP 32 0.949724 2.414016 270 N 12 1 MD1-33
+TOP 33 0.899724 2.414016 270 N 33 1 MD1-34
+TOP 34 0.849724 2.414016 270 N 32 1 MD1-35
+TOP 35 0.799724 2.414016 270 N 0 16 MD1-36
+TOP 36 0.749724 2.414016 270 N 0 15 MD1-37
+TOP 37 0.699724 2.414016 270 N 80 124 MD1-38
+TOP 38 1.067244 2.04 270 N 80 123 MD1-39
+TOP 39 1.067244 2.112244 270 N 80 125 MD1-39
+TOP 40 0.922756 2.112244 270 N 80 126 MD1-39
+TOP 41 0.995 2.112244 270 N 80 127 MD1-39
+TOP 42 1.067244 1.967756 270 N 80 128 MD1-39
+TOP 43 0.995 2.04 270 N 80 129 MD1-39
+TOP 44 0.995 1.967756 270 N 80 130 MD1-39
+TOP 45 0.922756 2.04 270 N 80 132 MD1-39
+TOP 46 0.922756 1.967756 270 N 80 133 MD1-39
+#
+# CMP 1
+CMP 41 2.66 0.7913386 90 N L1 1uH ;0=1,1=0.0472
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.we-online.com'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://katalog.we-online.de/kataloge/eisos/media/pdf/74438334010.pdf'
+PRP Inductance '1.0ÂµH'
+PRP Manufacturer 'Wuerth Elektronik'
+PRP PackageReference 'SMD 3012'
+PRP PartNumber '74438334010'
+TOP 0 2.66 0.832678 0 N 50 2 L1-1
+TOP 1 2.66 0.75 0 N 49 2 L1-2
+#
+# CMP 2
+CMP 32 1.005 1.265 90 N R61 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 1.005 1.279764 0 N 5 1 R61-1
+TOP 1 1.005 1.250236 0 N 4 1 R61-2
+#
+# CMP 3
+CMP 28 1.04 1.365 270 N Q6 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 1.002598 1.32563 270 N 5 0 Q6-1
+TOP 1 1.077402 1.32563 270 N 80 145 Q6-2
+TOP 2 1.04 1.40437 270 N 85 6 Q6-3
+#
+# CMP 4
+CMP 37 2.83 0.66 180 N R60 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 2.846732 0.66 90 N 22 10 R60-1
+TOP 1 2.813268 0.66 90 N 10 4 R60-2
+#
+# CMP 5
+CMP 40 2.635 1.22 90 N R53 10K ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-3AEB103V'
+TOP 0 2.635 1.24756 0 N 11 2 R53-1
+TOP 1 2.635 1.192442 0 N 80 155 R53-2
+#
+# CMP 6
+CMP 32 1.5545567 1.325 90 N R46 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 1.554556 1.339764 0 N 7 0 R46-1
+TOP 1 1.554556 1.310236 0 N 12 0 R46-2
+#
+# CMP 7
+CMP 32 1.59 1.325 270 N R44 1K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW04021K00FKEDHP'
+TOP 0 1.59 1.310236 180 N 19 15 R44-1
+TOP 1 1.59 1.339764 180 N 6 0 R44-2
+#
+# CMP 8
+CMP 32 1.4145567 1.3252362 90 N R42 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 1.414556 1.34 0 N 9 0 R42-1
+TOP 1 1.414556 1.310472 0 N 14 0 R42-2
+#
+# CMP 9
+CMP 32 1.45 1.325 270 N R40 1K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW04021K00FKEDHP'
+TOP 0 1.45 1.310236 180 N 19 16 R40-1
+TOP 1 1.45 1.339764 180 N 8 0 R40-2
+#
+# CMP 10
+CMP 28 1.59 1.445 270 N Q5 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 1.552598 1.40563 270 N 7 1 Q5-1
+TOP 1 1.627402 1.40563 270 N 11 0 Q5-2
+TOP 2 1.59 1.48437 270 N 6 1 Q5-3
+#
+# CMP 11
+CMP 28 1.4497737 1.445 270 N Q3 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 1.412372 1.40563 270 N 9 1 Q3-1
+TOP 1 1.487176 1.40563 270 N 13 0 Q3-2
+TOP 2 1.449774 1.48437 270 N 8 1 Q3-3
+#
+# CMP 12
+CMP 9 1.85 1.835 270 N Y1 ABS05-32.768KHZ-9-T ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Crys'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://abracon.com/Resonators/ABS05.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Crystals / Oscillators'
+PRP Device_Class_L3 'Crystals'
+PRP Digikey_Description 'CRYSTAL 32.7680KHZ 9PF SMD'
+PRP Esr '90kO'
+PRP Frequency '32.768kHz'
+PRP Height '0.5mm'
+PRP Lead_Free 'Yes'
+PRP Load_Capacitance '9pF'
+PRP Manufacturer 'Abracon'
+PRP Manufacturer_Part_Number 'ABS05-32.768KHZ-9-T'
+PRP Mouser_Description 'ABS05 Series 32.768 kHz ±20 ppm 9 pF -40 to +85 °C SMT Low Profile Crystal'
+PRP Octopart 'https://octopart.com/abs05-32.768khz-9-t-abracon-24147054'
+PRP Package 'ABS05'
+PRP RoHS 'TRUE'
+PRP Series 'ABS05'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+PRP Tolerance '20ppm'
+TOP 0 1.85 1.813346 270 N 60 2 Y1-1
+TOP 1 1.85 1.856654 270 N 61 2 Y1-2
+#
+# CMP 13
+CMP 0 1.845 1.6544981 180 N X1 ABM3B-8.000MHZ-10-1-U-T ;0=1,1=0.0433
+PRP Category 'CrystalsandOscillators'
+PRP Datasheet_URL 'http://www.abracon.com/Resonators/abm3b.pdf'
+PRP Datasheet_Version '08/2015'
+PRP ESR_(Equivalent_Series_Resistance) '200Ohm'
+PRP Family 'Crystals'
+PRP Frequency '8MHz'
+PRP Frequency_Stability '±10ppm'
+PRP Frequency_Tolerance '±10ppm'
+PRP Height '0.043_(1.10mm)'
+PRP Load_Capacitance '10pF'
+PRP Manufacturer 'Abracon-LLC'
+PRP Manufacturer_URL 'http://www.abracon.com/'
+PRP Mounting_Technology 'SurfaceMount'
+PRP Mounting_Type 'SurfaceMount'
+PRP Operating_Mode 'Fundamental'
+PRP Operating_Temperature '-10°C~60°C'
+PRP Package_/_Case '4-SMD,NoLead(DFN,LCC)'
+PRP Package_Description '4-Pin Surface Mount Device, Body 5 x 3.2 mm'
+PRP Package_Reference 'ABM3B'
+PRP Packaging 'Tape&amp;Reel(TR)'
+PRP Ratings '-'
+PRP Series 'ABM3B'
+PRP Size_/_Dimension '0.197_Lx0.126_W(5.00mmx3.20mm)'
+PRP Type 'MHzCrystal'
+TOP 0 1.92374 1.701742 0 N 57 2 X1-1
+TOP 1 1.76626 1.701742 0 N 80 99 X1-2
+TOP 2 1.76626 1.607254 0 N 56 1 X1-3
+TOP 3 1.92374 1.607254 0 N 80 100 X1-4
+#
+# CMP 14
+CMP 23 2.6640669 1.7 0 N U4 STM32F446VET6 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+85°C'
+PRP Ambient_Temperature_Range_Low '-40°C'
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.st.com/resource/en/datasheet/stm32f446ve.pdf'
+PRP Core_Architecture 'ARM Cortex-M4'
+PRP Data_Bus_Width '32bits'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Embedded Processors and Controllers'
+PRP Device_Class_L3 'Microcontrollers'
+PRP Digikey_Description 'IC MCU 32BIT 512KB FLASH 100LQFP'
+PRP Frequency '180MHz'
+PRP Height '1.6mm'
+PRP Interface 'I2C,SPI,UART,USART,Parallel,CAN,USB,LIN,IrDA,I2S,Other'
+PRP Ipc_Land_Pattern_Name 'QFP50P1600X1600X160-100'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_Part_Number 'STM32F446VET6'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Supply_Voltage '3.6V'
+PRP Memory_Size '512KBytes'
+PRP Memory_Type 'FLASH'
+PRP Min_Supply_Voltage '1.65V'
+PRP Mouser_Description 'ARM Microcontrollers - MCU High-performance and DSP with FPU, ARM Cortex-M4 MCU with 512 Kbytes Flash, 180 MHz CPU, Art Accelerator, SDRAM'
+PRP Nominal_Supply_Current '1.4-86mA'
+PRP Number_Of_A/D_Converters '3'
+PRP Number_Of_Adc_Channels '16'
+PRP Number_Of_Cores '1'
+PRP Number_Of_I2C_Channels '4'
+PRP Number_Of_I/Os '81'
+PRP Number_Of_Spi_Channels '4'
+PRP Number_Of_Timers/Counters '14'
+PRP Number_Of_Uart_Channels '6'
+PRP Number_Of_Usb_Channels '2'
+PRP Octopart 'https://octopart.com/stm32f446vet6-stmicroelectronics-52642922'
+PRP Package 'LQFP100-1L'
+PRP Ram_Size '128KBytes'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.05mm'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 2.358948 1.93622 0 N 0 68 U4-1
+TOP 1 2.358948 1.916536 0 N 0 67 U4-2
+TOP 2 2.358948 1.89685 0 N 0 66 U4-3
+TOP 3 2.358948 1.877166 0 N 0 65 U4-4
+TOP 4 2.358948 1.85748 0 N 0 64 U4-5
+TOP 5 2.358948 1.837796 0 N 18 18 U4-6
+TOP 6 2.358948 1.81811 0 N 0 63 U4-7
+TOP 7 2.358948 1.798426 0 N 74 1 U4-8
+TOP 8 2.358948 1.77874 0 N 73 1 U4-9
+TOP 9 2.358948 1.759056 0 N 80 142 U4-10
+TOP 10 2.358948 1.73937 0 N 18 17 U4-11
+TOP 11 2.358948 1.719684 0 N 79 1 U4-12
+TOP 12 2.358948 1.7 0 N 78 1 U4-13
+TOP 13 2.358948 1.680316 0 N 39 6 U4-14
+TOP 14 2.358948 1.66063 0 N 91 1 U4-15
+TOP 15 2.358948 1.640946 0 N 94 1 U4-16
+TOP 16 2.358948 1.62126 0 N 90 1 U4-17
+TOP 17 2.358948 1.601574 0 N 82 1 U4-18
+TOP 18 2.358948 1.58189 0 N 18 16 U4-19
+TOP 19 2.358948 1.562204 0 N 80 143 U4-20
+TOP 20 2.358948 1.54252 0 N 16 3 U4-21
+TOP 21 2.358948 1.522834 0 N 17 4 U4-22
+TOP 22 2.358948 1.50315 0 N 15 2 U4-23
+TOP 23 2.358948 1.483464 0 N 0 62 U4-24
+TOP 24 2.358948 1.46378 0 N 0 70 U4-25
+TOP 25 2.427846 1.394882 0 N 0 69 U4-26
+TOP 26 2.447532 1.394882 0 N 80 144 U4-27
+TOP 27 2.467216 1.394882 0 N 18 14 U4-28
+TOP 28 2.486902 1.394882 0 N 95 1 U4-29
+TOP 29 2.506586 1.394882 0 N 96 1 U4-30
+TOP 30 2.526272 1.394882 0 N 93 1 U4-31
+TOP 31 2.545956 1.394882 0 N 92 1 U4-32
+TOP 32 2.565642 1.394882 0 N 0 51 U4-33
+TOP 33 2.585326 1.394882 0 N 0 50 U4-34
+TOP 34 2.605012 1.394882 0 N 102 3 U4-35
+TOP 35 2.624696 1.394882 0 N 21 2 U4-36
+TOP 36 2.644382 1.394882 0 N 11 1 U4-37
+TOP 37 2.664068 1.394882 0 N 0 49 U4-38
+TOP 38 2.683752 1.394882 0 N 0 48 U4-39
+TOP 39 2.703436 1.394882 0 N 38 2 U4-40
+TOP 40 2.723122 1.394882 0 N 99 3 U4-41
+TOP 41 2.742808 1.394882 0 N 97 4 U4-42
+TOP 42 2.762492 1.394882 0 N 100 4 U4-43
+TOP 43 2.782178 1.394882 0 N 98 3 U4-44
+TOP 44 2.801862 1.394882 0 N 0 47 U4-45
+TOP 45 2.821548 1.394882 0 N 4 0 U4-46
+TOP 46 2.841232 1.394882 0 N 0 46 U4-47
+TOP 47 2.860918 1.394882 0 N 59 1 U4-48
+TOP 48 2.880602 1.394882 0 N 80 140 U4-49
+TOP 49 2.900288 1.394882 0 N 18 13 U4-50
+TOP 50 2.969186 1.46378 0 N 75 2 U4-51
+TOP 51 2.969186 1.483464 0 N 77 2 U4-52
+TOP 52 2.969186 1.50315 0 N 76 2 U4-53
+TOP 53 2.969186 1.522834 0 N 0 61 U4-54
+TOP 54 2.969186 1.54252 0 N 88 1 U4-55
+TOP 55 2.969186 1.562204 0 N 89 1 U4-56
+TOP 56 2.969186 1.58189 0 N 66 2 U4-57
+TOP 57 2.969186 1.601574 0 N 0 60 U4-58
+TOP 58 2.969186 1.62126 0 N 0 59 U4-59
+TOP 59 2.969186 1.640944 0 N 0 58 U4-60
+TOP 60 2.969186 1.66063 0 N 0 57 U4-61
+TOP 61 2.969186 1.680316 0 N 0 56 U4-62
+TOP 62 2.969186 1.7 0 N 0 55 U4-63
+TOP 63 2.969186 1.719684 0 N 0 54 U4-64
+TOP 64 2.969184 1.73937 0 N 70 2 U4-65
+TOP 65 2.969186 1.759056 0 N 69 1 U4-66
+TOP 66 2.969186 1.77874 0 N 0 53 U4-67
+TOP 67 2.969186 1.798426 0 N 0 52 U4-68
+TOP 68 2.969184 1.81811 0 N 27 1 U4-69
+TOP 69 2.969186 1.837796 0 N 26 0 U4-70
+TOP 70 2.969186 1.85748 0 N 25 0 U4-71
+TOP 71 2.969186 1.877166 0 N 35 1 U4-72
+TOP 72 2.969186 1.89685 0 N 58 1 U4-73
+TOP 73 2.969186 1.916536 0 N 80 139 U4-74
+TOP 74 2.969186 1.93622 0 N 18 15 U4-75
+TOP 75 2.900288 2.005118 0 N 36 1 U4-76
+TOP 76 2.880602 2.005118 0 N 101 2 U4-77
+TOP 77 2.860918 2.005118 0 N 68 2 U4-78
+TOP 78 2.841232 2.005118 0 N 67 2 U4-79
+TOP 79 2.821548 2.005118 0 N 72 1 U4-80
+TOP 80 2.801862 2.005118 0 N 0 45 U4-81
+TOP 81 2.782178 2.005118 0 N 0 44 U4-82
+TOP 82 2.762492 2.005118 0 N 71 2 U4-83
+TOP 83 2.742808 2.005118 0 N 0 43 U4-84
+TOP 84 2.723122 2.005118 0 N 0 42 U4-85
+TOP 85 2.703438 2.005118 0 N 0 41 U4-86
+TOP 86 2.683752 2.005118 0 N 0 40 U4-87
+TOP 87 2.664066 2.005118 0 N 0 39 U4-88
+TOP 88 2.644382 2.005118 0 N 34 1 U4-89
+TOP 89 2.624696 2.005118 0 N 0 38 U4-90
+TOP 90 2.605012 2.005118 0 N 0 37 U4-91
+TOP 91 2.585326 2.005118 0 N 84 4 U4-92
+TOP 92 2.565642 2.005118 0 N 83 4 U4-93
+TOP 93 2.545956 2.005118 0 N 13 2 U4-94
+TOP 94 2.526272 2.005118 0 N 0 36 U4-95
+TOP 95 2.506586 2.005118 0 N 0 35 U4-96
+TOP 96 2.486902 2.005118 0 N 0 34 U4-97
+TOP 97 2.467216 2.005118 0 N 0 33 U4-98
+TOP 98 2.447532 2.005118 0 N 80 141 U4-99
+TOP 99 2.427846 2.005118 0 N 18 12 U4-100
+#
+# CMP 15
+CMP 6 0.855 0.845 270 N U3 DWM1000 ;0=1,1=0.1575
+PRP Antenna_Type 'Integrated,Chip'
+PRP Category 'RF/IFandRFID'
+PRP Current_-_Receiving '64mA'
+PRP Current_-_Transmitting '31mA'
+PRP Data_Rate '6.8Mbps'
+PRP Datasheet_URL 'http://www.decawave.com/sites/default/files/resources/dwm1000-datasheet-v1.3.pdf'
+PRP Datasheet_Version 'Rev. V1.0, 12/2015'
+PRP Design_Resources 'DevelopmentToolSelector'
+PRP Family 'RFTransceiverModules'
+PRP Featured_Product 'ScenSorDWM1000Module'
+PRP Frequency '3.5GHz~6.5GHz'
+PRP Manufacturer 'Decawave'
+PRP Manufacturer_URL 'http://www.decawave.com/'
+PRP Memory_Size '-'
+PRP Modulation 'BPM,BPSK'
+PRP Mounting_Type 'SurfaceMount'
+PRP Online_Catalog 'ScenSorDWM1000Module'
+PRP Operating_Temperature '-40degC~85degC'
+PRP Other_Names '1479-1002-2RUPF-G001A'
+PRP Package_/_Case 'Module'
+PRP Packaging 'Tape&Reel(TR)'
+PRP Power_-_Output '-'
+PRP Protocol 'IR-UWB'
+PRP RF_Family/Standard '802.15.4'
+PRP Sensitivity '-'
+PRP Serial_Interfaces 'SPI'
+PRP Series '-'
+PRP Standard_Package '500'
+PRP Voltage_-_Supply '2.8V~3.6V'
+TOP 0 0.823504 0.597166 90 N 0 7 U3-1
+TOP 1 0.878622 0.597166 90 N 90 0 U3-2
+TOP 2 0.93374 0.597166 90 N 91 0 U3-3
+TOP 3 0.988858 0.597166 90 N 0 6 U3-4
+TOP 4 1.043976 0.597166 90 N 19 35 U3-5
+TOP 5 1.099094 0.597166 90 N 19 36 U3-6
+TOP 6 1.154212 0.597166 90 N 19 37 U3-7
+TOP 7 1.20933 0.597166 90 N 80 106 U3-8
+TOP 8 1.299686 0.652086 0 N 0 2 U3-9
+TOP 9 1.299686 0.707204 0 N 0 3 U3-10
+TOP 10 1.299686 0.762322 0 N 0 4 U3-11
+TOP 11 1.299686 0.817442 0 N 40 1 U3-12
+TOP 12 1.299686 0.87256 0 N 41 1 U3-13
+TOP 13 1.299686 0.927678 0 N 0 5 U3-14
+TOP 14 1.299686 0.982796 0 N 42 1 U3-15
+TOP 15 1.299686 1.037914 0 N 80 104 U3-16
+TOP 16 1.20933 1.092834 90 N 95 0 U3-17
+TOP 17 1.154212 1.092834 90 N 92 0 U3-18
+TOP 18 1.099094 1.092834 90 N 93 0 U3-19
+TOP 19 1.043976 1.092834 90 N 96 0 U3-20
+TOP 20 0.988858 1.092834 90 N 80 108 U3-21
+TOP 21 0.93374 1.092834 90 N 94 0 U3-22
+TOP 22 0.878622 1.092834 90 N 80 107 U3-23
+TOP 23 0.823504 1.092834 90 N 80 105 U3-24
+#
+# CMP 16
+CMP 7 3.541752 0.64901 180 N U2 MC34673AEPR2 ;0=1,1=0.0000
+PRP Availability 'Unavailable'
+PRP MF 'NXP USA'
+PRP MP 'MC34673AEPR2'
+PRP Package 'UDFN-8 NXP Semiconductors'
+PRP Price 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MC34673AEPR2/NXP%20USA%20Inc./view-part/502210/?ref=snap'
+PRP Value ''
+TOP 0 3.591752 0.61901 180 N 20 5 U2-1
+TOP 1 3.591752 0.63901 180 N 97 3 U2-2
+TOP 2 3.591752 0.65901 180 N 100 3 U2-3
+TOP 3 3.591752 0.67901 180 N 99 2 U2-4
+TOP 4 3.491752 0.67901 180 N 80 110 U2-5
+TOP 5 3.491752 0.65901 180 N 98 2 U2-6
+TOP 6 3.491752 0.63901 180 N 44 1 U2-7
+TOP 7 3.491752 0.61901 180 N 103 6 U2-8
+TOP 8 3.541752 0.64901 180 N 80 109 U2-9
+#
+# CMP 17
+CMP 15 2.84 0.79 90 N U1 TPS63020DSJT ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+85°C'
+PRP Ambient_Temperature_Range_Low '-40°C'
+PRP Automotive 'No'
+PRP Category 'IC'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.ti.com/lit/ds/symlink/tps63020.pdf'
+PRP Device_Class_L1 'Integrated Circuits (ICs)'
+PRP Device_Class_L2 'Power Management ICs'
+PRP Device_Class_L3 'Voltage Regulators - Switching'
+PRP Digikey_Description 'IC REG BCK BST ADJ 3.5A 14VSON'
+PRP Height '1mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Texas Instruments'
+PRP Manufacturer_Part_Number 'TPS63020DSJT'
+PRP Max_Junction_Temp '+125°C'
+PRP Max_Supply_Voltage '5.5V'
+PRP Min_Supply_Voltage '1.8V'
+PRP Mouser_Description 'Voltage Regulators - Switching Regulators 93% Eff Buck-Boost Converter'
+PRP Nominal_Supply_Current '25uA'
+PRP Number_Of_Outputs '1'
+PRP Octopart 'https://octopart.com/tps63020dsjt-texas+instruments-12976119'
+PRP Output_Current '3A'
+PRP Output_Type 'AdjustableProgrammable'
+PRP Output_Voltage '1.2-5.5V'
+PRP Package 'DSJ0014A'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0mm'
+PRP Switching_Frequency '2400kHz'
+PRP Switching_Topology 'Buck-Boost'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+TOP 0 2.899056 0.845118 90 N 65 3 U1-1
+TOP 1 2.87937 0.845118 90 N 80 121 U1-2
+TOP 2 2.859686 0.845118 90 N 81 1 U1-3
+TOP 3 2.84 0.845118 90 N 19 40 U1-4
+TOP 4 2.820316 0.845118 90 N 19 39 U1-5
+TOP 5 2.80063 0.845118 90 N 50 1 U1-6
+TOP 6 2.780944 0.845118 90 N 50 0 U1-7
+TOP 7 2.780944 0.734882 90 N 49 1 U1-8
+TOP 8 2.80063 0.734882 90 N 49 0 U1-9
+TOP 9 2.820316 0.734882 90 N 10 3 U1-10
+TOP 10 2.84 0.734882 90 N 10 2 U1-11
+TOP 11 2.859686 0.734882 90 N 65 2 U1-12
+TOP 12 2.87937 0.734882 90 N 45 2 U1-13
+TOP 13 2.899056 0.734882 90 N 38 1 U1-14
+TOP 14 2.84 0.79 90 N 80 122 U1-15
+#
+# CMP 18
+CMP 22 1.67 2.38 90 N SW4 KMT071NGJLHS ;0=1,1=0.0000
+PRP Actuator_Type 'Standard'
+PRP Case/Package 'SMD/SMT'
+PRP Contact_Material 'Silver'
+PRP Contact_Plating 'Silver'
+PRP Current_Rating '50mA'
+PRP Depth '3.4mm'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Lead_Free 'Lead Free'
+PRP Length '2.6mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '32V'
+PRP Mechanical_Life '300000Cycles'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Operating_Force '2.3N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '500mW'
+PRP Radiation_Hardening 'No'
+PRP Ratings 'IP68'
+PRP REACH_SVHC 'No SVHC'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.15mm'
+PRP Termination 'J-Lead'
+PRP Throw_Configuration 'SPST'
+PRP Voltage_Rating_(DC) '32V'
+TOP 0 1.707402 2.43807 90 N 86 3 SW4-1
+TOP 1 1.707402 2.32193 90 N 0 32 SW4-2
+TOP 2 1.632598 2.43807 90 N 0 31 SW4-3
+TOP 3 1.632598 2.32193 90 N 80 138 SW4-4
+#
+# CMP 19
+CMP 22 1.27 1.445 0 N SW3 KMT071NGJLHS ;0=1,1=0.0000
+PRP Actuator_Type 'Standard'
+PRP Case/Package 'SMD/SMT'
+PRP Contact_Material 'Silver'
+PRP Contact_Plating 'Silver'
+PRP Current_Rating '50mA'
+PRP Depth '3.4mm'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Lead_Free 'Lead Free'
+PRP Length '2.6mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '32V'
+PRP Mechanical_Life '300000Cycles'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Operating_Force '2.3N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '500mW'
+PRP Radiation_Hardening 'No'
+PRP Ratings 'IP68'
+PRP REACH_SVHC 'No SVHC'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.15mm'
+PRP Termination 'J-Lead'
+PRP Throw_Configuration 'SPST'
+PRP Voltage_Rating_(DC) '32V'
+TOP 0 1.21193 1.482402 0 N 85 0 SW3-1
+TOP 1 1.32807 1.482402 0 N 0 1 SW3-2
+TOP 2 1.21193 1.407598 0 N 0 0 SW3-3
+TOP 3 1.32807 1.407598 0 N 80 60 SW3-4
+#
+# CMP 20
+CMP 22 3.22 1.065 180 N SW2 KMT071NGJLHS ;0=1,1=0.0000
+PRP Actuator_Type 'Standard'
+PRP Case/Package 'SMD/SMT'
+PRP Contact_Material 'Silver'
+PRP Contact_Plating 'Silver'
+PRP Current_Rating '50mA'
+PRP Depth '3.4mm'
+PRP Illumination_Type 'Non-Illuminated'
+PRP Lead_Free 'Lead Free'
+PRP Length '2.6mm'
+PRP Max_Current_Rating '50mA'
+PRP Max_Operating_Temperature '85°C'
+PRP Max_Voltage_Rating_(DC) '32V'
+PRP Mechanical_Life '300000Cycles'
+PRP Min_Operating_Temperature '-40°C'
+PRP Mount 'Surface Mount'
+PRP Operating_Force '2.3N'
+PRP Orientation 'Straight'
+PRP Package_Quantity '5000'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '500mW'
+PRP Radiation_Hardening 'No'
+PRP Ratings 'IP68'
+PRP REACH_SVHC 'No SVHC'
+PRP Switch_Function 'Off-Mom'
+PRP Switch_Travel '0.15mm'
+PRP Termination 'J-Lead'
+PRP Throw_Configuration 'SPST'
+PRP Voltage_Rating_(DC) '32V'
+TOP 0 3.27807 1.027598 180 N 80 61 SW2-1
+TOP 1 3.16193 1.027598 180 N 80 62 SW2-2
+TOP 2 3.27807 1.102402 180 N 39 3 SW2-3
+TOP 3 3.16193 1.102402 180 N 39 2 SW2-4
+#
+# CMP 21
+CMP 29 1.965 0.59 180 N SD1 104031-0811 ;0=1,1=0.0618
+PRP Brand 'Molex'
+PRP Card_Type 'microSD'
+PRP Contact_Material 'PhosphorBronze'
+PRP Contact_Plating 'Gold'
+PRP Current_Rating '500mA'
+PRP Datasheet_URL 'http://www.molex.com/pdm_docs/sd/1040310811_sd.pdf'
+PRP Datasheet_Version 'Rev. E, 04/2006'
+PRP Height '1.42mm'
+PRP Housing_Material 'LiquidCrystalPolymer(LCP)'
+PRP Insertion_-_Extraction_Style 'Push-Pull'
+PRP Length '11.4mm'
+PRP Manufacturer 'Molex'
+PRP Manufacturer_URL 'http://www.molex.com/'
+PRP Mating_Cycles '10000'
+PRP Mounting_Technology 'SurfaceMount'
+PRP Mounting_Type 'Standard'
+PRP Number_Of_Contacts '8'
+PRP Number_of_Rows '1Row'
+PRP Orientation 'RightAngle'
+PRP Package_Description '8-Pin Surface Mount Device, Body 11.95 x 11.4 mm, Pitch 1.1 mm'
+PRP Package_Reference '104031-0811'
+PRP Packaging 'Reel'
+PRP Pitch '1.1mm'
+PRP Product 'CardConnectors'
+PRP Product_Category 'MemoryCardConnectors'
+PRP RoHS 'True'
+PRP Series '104031'
+PRP Termination_Style 'SMD'
+PRP Voltage_Rating '10VAC/DC'
+TOP 0 1.84246 0.80309 180 N 68 3 SD1-1
+TOP 1 1.885768 0.80309 180 N 67 3 SD1-2
+TOP 2 1.929074 0.80309 180 N 71 3 SD1-3
+TOP 3 1.972382 0.80309 180 N 19 45 SD1-4
+TOP 4 2.01569 0.80309 180 N 72 2 SD1-5
+TOP 5 2.058996 0.80309 180 N 80 147 SD1-6
+TOP 6 2.102304 0.80309 180 N 70 3 SD1-7
+TOP 7 2.143642 0.80309 180 N 69 2 SD1-8
+TOP 8 1.73872 0.560964 180 N 62 3 SD1-9
+TOP 9 1.73872 0.415296 180 N 80 149 SD1-10
+TOP 10 1.74561 0.79817 90 N 80 148 SD1-11
+TOP 11 2.19128 0.789312 180 N 80 146 SD1-12
+TOP 12 2.111556 0.37691 180 N 0 72 SD1-13
+TOP 13 1.876516 0.37691 180 N 0 71 SD1-14
+#
+# CMP 22
+CMP 37 1.895 1.555 0 N R59 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.878268 1.555 270 N 56 0 R59-1
+TOP 1 1.911732 1.555 270 N 78 0 R59-2
+#
+# CMP 23
+CMP 37 1.895 1.7509646 0 N R58 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.878268 1.750964 270 N 57 0 R58-1
+TOP 1 1.911732 1.750964 270 N 79 0 R58-2
+#
+# CMP 24
+CMP 37 2.145 1.4637288 180 N R57 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 2.161732 1.463728 90 N 16 0 R57-1
+TOP 1 2.128268 1.463728 90 N 17 0 R57-2
+#
+# CMP 25
+CMP 37 1.9277659 1.815 0 N R56 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.911034 1.815 270 N 60 0 R56-1
+TOP 1 1.944498 1.815 270 N 73 0 R56-2
+#
+# CMP 26
+CMP 37 1.9277659 1.855 0 N R55 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.911034 1.855 270 N 61 0 R55-1
+TOP 1 1.944498 1.855 270 N 74 0 R55-2
+#
+# CMP 27
+CMP 40 2.5616681 2.215 90 N R54 10K ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-3AEB103V'
+TOP 0 2.561668 2.24256 0 N 80 63 R54-1
+TOP 1 2.561668 2.18744 0 N 13 1 R54-2
+#
+# CMP 28
+CMP 37 2.85 1.05 0 N R52 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 2.833268 1.05 270 N 18 1 R52-1
+TOP 1 2.866732 1.05 270 N 19 17 R52-2
+#
+# CMP 29
+CMP 37 1.69 1.995 0 N R51 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 1.995 270 N 29 0 R51-1
+TOP 1 1.706732 1.995 270 N 84 1 R51-2
+#
+# CMP 30
+CMP 37 1.69 2.035 0 N R50 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 2.035 270 N 31 0 R50-1
+TOP 1 1.706732 2.035 270 N 84 2 R50-2
+#
+# CMP 31
+CMP 37 1.69 2.075 0 N R49 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 2.075 270 N 33 0 R49-1
+TOP 1 1.706732 2.075 270 N 84 3 R49-2
+#
+# CMP 32
+CMP 37 1.69 2.14 0 N R48 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 2.14 270 N 28 0 R48-1
+TOP 1 1.706732 2.14 270 N 83 1 R48-2
+#
+# CMP 33
+CMP 40 1.505 2.25 270 N R43 10K ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-3AEB103V'
+TOP 0 1.505 2.22244 180 N 37 1 R43-1
+TOP 1 1.505 2.27756 180 N 46 0 R43-2
+#
+# CMP 34
+CMP 37 1.69 2.185 0 N R47 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 2.185 270 N 30 0 R47-1
+TOP 1 1.706732 2.185 270 N 83 2 R47-2
+#
+# CMP 35
+CMP 37 1.69 2.2243801 0 N R45 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 1.673268 2.22438 270 N 32 0 R45-1
+TOP 1 1.706732 2.22438 270 N 83 3 R45-2
+#
+# CMP 36
+CMP 40 1.35 1.56 180 N R41 10K ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-3AEB103V'
+TOP 0 1.37756 1.56 90 N 87 1 R41-1
+TOP 1 1.322442 1.56 90 N 47 0 R41-2
+#
+# CMP 37
+CMP 39 0.965 1.19 180 N R39 ERJ-3EKF1000V ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-3EKF1000V'
+TOP 0 0.989606 1.19 90 N 80 154 R39-1
+TOP 1 0.940394 1.19 90 N 94 2 R39-2
+#
+# CMP 38
+CMP 40 1.035 1.475 180 N R38 10K ;0=1,1=0.0217
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-3AEB103V'
+TOP 0 1.06256 1.475 90 N 85 1 R38-1
+TOP 1 1.007442 1.475 90 N 19 18 R38-2
+#
+# CMP 39
+CMP 32 1.6 0.5 180 N R36 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 1.614764 0.5 90 N 62 0 R36-1
+TOP 1 1.585236 0.5 90 N 66 1 R36-2
+#
+# CMP 40
+CMP 32 1.6 0.54 180 N R35 4.7K ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-074K7L'
+TOP 0 1.614764 0.54 90 N 62 1 R35-1
+TOP 1 1.585236 0.54 90 N 19 19 R35-2
+#
+# CMP 41
+CMP 31 2.42 0.395 90 N R34 47K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ473X'
+TOP 0 2.42 0.410748 0 N 69 3 R34-1
+TOP 1 2.42 0.379252 0 N 19 47 R34-2
+#
+# CMP 42
+CMP 31 2.38 0.395 90 N R33 47K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ473X'
+TOP 0 2.38 0.410748 0 N 70 1 R33-1
+TOP 1 2.38 0.379252 0 N 19 20 R33-2
+#
+# CMP 43
+CMP 31 2.34 0.395 90 N R32 47K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ473X'
+TOP 0 2.34 0.410748 0 N 71 1 R32-1
+TOP 1 2.34 0.379252 0 N 19 21 R32-2
+#
+# CMP 44
+CMP 31 2.3 0.395 90 N R31 47K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ473X'
+TOP 0 2.3 0.410748 0 N 67 1 R31-1
+TOP 1 2.3 0.379252 0 N 19 22 R31-2
+#
+# CMP 45
+CMP 31 2.26 0.395 90 N R30 47K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ473X'
+TOP 0 2.26 0.410748 0 N 68 1 R30-1
+TOP 1 2.26 0.379252 0 N 19 23 R30-2
+#
+# CMP 46
+CMP 34 3.61 2.52 270 N R29 100K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402100KFKTD'
+TOP 0 3.61 2.500316 180 N 80 151 R29-1
+TOP 1 3.61 2.539686 180 N 48 2 R29-2
+#
+# CMP 47
+CMP 35 3.2240165 2.44 0 N R28 220K ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-07220KL'
+TOP 0 3.205316 2.44 270 N 80 152 R28-1
+TOP 1 3.242716 2.44 270 N 63 3 R28-2
+#
+# CMP 48
+CMP 31 3.935 1.475 180 N R27 180 ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ181X'
+TOP 0 3.950748 1.475 90 N 2 1 R27-1
+TOP 1 3.919252 1.475 90 N 76 1 R27-2
+#
+# CMP 49
+CMP 32 3.565 2.52 270 N R26 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 3.565 2.505236 180 N 101 1 R26-1
+TOP 1 3.565 2.534764 180 N 48 0 R26-2
+#
+# CMP 50
+CMP 32 3.2318895 2.485 180 N R25 330 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402FR-07330RL'
+TOP 0 3.246654 2.485 90 N 63 1 R25-1
+TOP 1 3.217126 2.485 90 N 15 1 R25-2
+#
+# CMP 51
+CMP 31 3.935 1.435 180 N R24 180 ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ181X'
+TOP 0 3.950748 1.435 90 N 3 1 R24-1
+TOP 1 3.919252 1.435 90 N 77 1 R24-2
+#
+# CMP 52
+CMP 35 3.1085384 1.065 270 N R23 220K ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-07220KL'
+TOP 0 3.108538 1.0463 180 N 39 4 R23-1
+TOP 1 3.108538 1.0837 180 N 19 24 R23-2
+#
+# CMP 53
+CMP 31 3.935 1.395 180 N R22 180 ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERJ-2GEJ181X'
+TOP 0 3.950748 1.395 90 N 1 1 R22-1
+TOP 1 3.919252 1.395 90 N 75 1 R22-2
+#
+# CMP 54
+CMP 34 3.225 2.5854135 0 N R21 100K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402100KFKTD'
+TOP 0 3.205316 2.585414 270 N 64 0 R21-1
+TOP 1 3.244686 2.585414 270 N 19 25 R21-2
+#
+# CMP 55
+CMP 33 3.885 0.5152358 90 N R20 68K ;0=1,1=0.0157
+PRP Manufacturer 'TE Connectivity / AMP'
+PRP Part_Number 'CRG0402F68K'
+TOP 0 3.885 0.53 0 N 80 150 R20-1
+TOP 1 3.885 0.500472 0 N 21 3 R20-2
+#
+# CMP 56
+CMP 32 2.9652362 0.66 180 N R19 1K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW04021K00FKEDHP'
+TOP 0 2.98 0.66 90 N 102 1 R19-1
+TOP 1 2.950472 0.66 90 N 80 64 R19-2
+#
+# CMP 57
+CMP 33 3.845 0.5152358 90 N R18 47K ;0=1,1=0.0157
+PRP Manufacturer 'TE Connectivity / AMP'
+PRP Part_Number 'CRG0402F47K'
+TOP 0 3.845 0.53 0 N 20 3 R18-1
+TOP 1 3.845 0.500472 0 N 21 1 R18-2
+#
+# CMP 58
+CMP 32 2.9652362 0.6245569 180 N R17 1K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW04021K00FKEDHP'
+TOP 0 2.98 0.624556 90 N 102 2 R17-1
+TOP 1 2.950472 0.624556 90 N 22 6 R17-2
+#
+# CMP 59
+CMP 37 3.39 0.72 180 N R16 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 3.406732 0.72 90 N 80 65 R16-1
+TOP 1 3.373268 0.72 90 N 43 0 R16-2
+#
+# CMP 60
+CMP 38 3.39 0.6806198 0 N R15 13K ;0=1,1=0.0157
+PRP Manufacturer 'Panasonic'
+PRP Part_Number 'ERA-2AEB133X'
+TOP 0 3.373268 0.68062 270 N 43 1 R15-1
+TOP 1 3.406732 0.68062 270 N 44 2 R15-2
+#
+# CMP 61
+CMP 34 3.39 0.6373026 0 N R14 13K3 ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW040213K3FKED'
+TOP 0 3.370316 0.637302 270 N 80 66 R14-1
+TOP 1 3.409686 0.637302 270 N 44 0 R14-2
+#
+# CMP 62
+CMP 37 3.541752 0.72401 0 N R13 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 3.52502 0.72401 270 N 80 67 R13-1
+TOP 1 3.558484 0.72401 270 N 99 1 R13-2
+#
+# CMP 63
+CMP 37 2.965 0.46 270 N R12 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 2.965 0.443268 180 N 22 7 R12-1
+TOP 1 2.965 0.476732 180 N 103 2 R12-2
+#
+# CMP 64
+CMP 34 3.601752 0.8213976 270 N R11 100K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402100KFKTD'
+TOP 0 3.601752 0.801712 180 N 98 1 R11-1
+TOP 1 3.601752 0.841082 180 N 19 26 R11-2
+#
+# CMP 65
+CMP 34 3.6632677 0.8213976 270 N R10 100K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402100KFKTD'
+TOP 0 3.663268 0.801712 180 N 100 2 R10-1
+TOP 1 3.663268 0.841082 180 N 19 27 R10-2
+#
+# CMP 66
+CMP 34 3.7247834 0.8213976 270 N R9 100K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402100KFKTD'
+TOP 0 3.724784 0.801712 180 N 97 2 R9-1
+TOP 1 3.724784 0.841082 180 N 19 28 R9-2
+#
+# CMP 67
+CMP 37 3 0.75 90 N R5 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 3.000002 0.766732 0 N 80 68 R5-1
+TOP 1 3.000002 0.733268 0 N 45 0 R5-2
+#
+# CMP 68
+CMP 37 3.035 0.75 90 N R4 0 ;0=1,1=0.0157
+PRP Manufacturer 'Yageo / Phycomp'
+PRP Part_Number 'RC0402JR-070RL'
+TOP 0 3.035 0.766732 0 N 65 0 R4-1
+TOP 1 3.035 0.733268 0 N 45 1 R4-2
+#
+# CMP 69
+CMP 36 2.865 0.948061 90 N R3 137K ;0=1,1=0.0157
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case\/Package '0402'
+PRP ComponentLink1Description 'Manufacturer URL'
+PRP ComponentLink1URL 'http://www.vishay.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.vishay.com/docs/20035/dcrcwe3.pdf'
+PRP DatasheetVersion '06/2012'
+PRP Height '0.35 mm'
+PRP Length '1 mm'
+PRP Manufacturer 'Basic Passives'
+PRP Max_Operating_Temperature '155 degC'
+PRP Min_Operating_Temperature '-55 degC'
+PRP Mount 'Surface Mount'
+PRP Mounting_Technology 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP PackageDescription '2-Pin Surface Mount Device, Body 1 x 0.5 mm'
+PRP PackageReference '0402'
+PRP Packaging 'Tape and Reel'
+PRP PartNumber 'CRCW0402137KFKED'
+PRP Pins '2'
+PRP Power_Rating '63 mW'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'Unknown'
+PRP Resistance '137 KOhm'
+PRP RoHSCompliant 'true'
+PRP Tolerance '1%'
+PRP Voltage_Rating '50 V'
+PRP Weight '2.3E-05oz'
+PRP Width '0.5 mm'
+TOP 0 2.865 0.965778 0 N 80 153 R3-1
+TOP 1 2.865 0.930344 0 N 81 2 R3-2
+#
+# CMP 70
+CMP 31 2.8275886 0.95 270 N R2 768K ;0=1,1=0.0157
+PRP Manufacturer 'Vishay Dale'
+PRP Part_Number 'CRCW0402768KFKED'
+TOP 0 2.827588 0.934252 180 N 81 0 R2-1
+TOP 1 2.827588 0.965748 180 N 19 29 R2-2
+#
+# CMP 71
+CMP 30 2.775 0.965 180 N R1 1M_1%_0201(0603) ;0=1,1=0.0118
+PRP Case-EIA '0201'
+PRP Case-Metric '0603'
+PRP Power '0.05 W'
+PRP Technology 'SMT'
+PRP Tolerance '1 %'
+PRP Value '1000000.00 Ohm'
+TOP 0 2.78681 0.965 90 N 19 46 R1-1
+TOP 1 2.763188 0.965 90 N 38 3 R1-2
+#
+# CMP 72
+CMP 28 1.53 2.395 270 N Q4 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 1.492598 2.35563 270 N 46 1 Q4-1
+TOP 1 1.567402 2.35563 270 N 87 2 Q4-2
+TOP 2 1.53 2.43437 270 N 86 0 Q4-3
+#
+# CMP 73
+CMP 28 1.205 1.5941239 180 N Q2 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 1.24437 1.556722 180 N 47 1 Q2-1
+TOP 1 1.24437 1.631526 180 N 37 2 Q2-2
+TOP 2 1.16563 1.594124 180 N 85 2 Q2-3
+#
+# CMP 74
+CMP 28 3.72 2.525 0 N Q1 BC817-40,215 ;0=1,1=0.0000
+PRP Ambient_Temperature_Range_High '+150°C'
+PRP Ambient_Temperature_Range_Low '-65°C'
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Category 'Trans'
+PRP Collector_Base_Voltage '50V'
+PRP Collector_Emitter_Breakdown_Voltage '45V'
+PRP Collector_Emitter_Saturation_Voltage '700mV'
+PRP Collector_Emitter_Voltage '45V'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Transistors'
+PRP Device_Class_L3 'BJTs'
+PRP Digikey_Description 'TRANS NPN 45V 0.5A SOT23'
+PRP Emitter_Base_Voltage '5V'
+PRP Footprint_Url 'https://assets.nexperia.com/documents/outline-drawing/SOT23.pdf'
+PRP Height '1.1mm'
+PRP Hfe_Max '600'
+PRP Hfe_Min '250'
+PRP Hfe_Testic '100mA'
+PRP Hfe_Testvce '1V'
+PRP Ipc_Land_Pattern_Name 'SOT95P230X100-3'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Nexperia'
+PRP Manufacturer_Part_Number 'BC817-40,215'
+PRP Max_Collector_Current '500mA'
+PRP Max_Junction_Temp '+150°C'
+PRP Mouser_Description 'BC817 Series 45 V 500 mA 250 mW SMT NPN General-Purpose Transistor - SOT-23-'
+PRP Number_of_Elements '1'
+PRP Number_Of_Npn '1'
+PRP Octopart 'https://octopart.com/bc817-40%2C215-nexperia-78739081'
+PRP Package 'SOT23'
+PRP Power_Dissipation '250mW'
+PRP RoHS 'TRUE'
+PRP Rthja_Max '500K/W'
+PRP Temperature 'to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Unity_Gain_Freq '100MHz'
+TOP 0 3.68063 2.562402 0 N 48 1 Q1-1
+TOP 1 3.68063 2.487598 0 N 80 69 Q1-2
+TOP 2 3.75937 2.525 0 N 52 0 Q1-3
+#
+# CMP 75
+CMP 25 3.675 2.195 90 N LS1 PKLCS1212E4001-R1 ;0=1,1=0.0000
+PRP Depth '12mm'
+PRP Diameter '12mm'
+PRP Frequency '4kHz'
+PRP Height '3mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '12mm'
+PRP Max_Frequency '4kHz'
+PRP Max_Operating_Temperature '70°C'
+PRP Max_Supply_Voltage '25V'
+PRP Min_Operating_Temperature '-20°C'
+PRP Mount 'Surface Mount'
+PRP Nominal_Input_Voltage '3V'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Self_Resonant_Frequency '4kHz'
+PRP Termination 'Solder'
+PRP Voltage_Rating '25V'
+PRP Voltage_Rating_(DC) '25V'
+PRP Washable 'No'
+PRP Width '12mm'
+TOP 0 3.675 1.974528 90 N 19 43 LS1-1
+TOP 1 3.675 2.415472 90 N 52 1 LS1-2
+#
+# CMP 76
+CMP 8 3.575 0.4 0 N J1 473460001 ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Conn'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.molex.com/webdocs/datasheets/pdf/en-us/0473460001_IO_CONNECTORS.pdf'
+PRP Conn_Orientation 'Right Angle'
+PRP Contact_Material 'Gold,Nickel'
+PRP Current_Rating '1.8A'
+PRP Device_Class_L1 'Connectors'
+PRP Device_Class_L2 'USB Connectors'
+PRP Device_Class_L3 'unset'
+PRP Digikey_Description 'CONN RCPT USB2.0 MICRO B SMD R/A'
+PRP Footprint_Url 'https://www.molex.com/pdm_docs/sd/473460001_sd.pdf'
+PRP Height '2.945mm'
+PRP Is_Female 'yes'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Molex'
+PRP Manufacturer_Part_Number '473460001'
+PRP Number_Of_Contacts '5'
+PRP Octopart 'https://octopart.com/47346-0001-molex-7164928'
+PRP Package '0'
+PRP Pitch '0.65mm'
+PRP RoHS 'TRUE'
+PRP Shielding 'true'
+PRP Temperature '-30°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-30°C'
+PRP Usb_Standard 'USB 2.0'
+PRP Voltage_Rating '30V'
+TOP 0 3.523818 0.490944 0 N 20 6 J1-1
+TOP 1 3.54941 0.490944 0 N 24 0 J1-2
+TOP 2 3.575 0.490944 0 N 23 0 J1-3
+TOP 3 3.60059 0.490944 0 N 27 0 J1-4
+TOP 4 3.626182 0.490944 0 N 80 112 J1-5
+TOP 5 3.477066 0.487598 0 N 80 115 J1-6
+TOP 6 3.672934 0.487598 0 N 80 111 J1-7
+TOP 7 3.442126 0.38622 0 N 80 117 J1-8
+TOP 8 3.529724 0.38622 0 N 80 116 J1-9
+TOP 9 3.636024 0.38622 0 N 80 114 J1-10
+TOP 10 3.707874 0.38622 0 N 80 113 J1-11
+#
+# CMP 77
+CMP 10 2.145 1.3985963 0 N FB1 BLM18HE152SN1D ;0=1,1=0.0000
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Core_Material 'Ferrite'
+PRP Current_Rating '500mA'
+PRP DC_Current '500mA'
+PRP DC_Resistance_(DCR) '500mR'
+PRP Depth '0.8mm'
+PRP Height '0.8mm'
+PRP Impedance '1.5kR'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Material 'Ferrite'
+PRP Max_Current_Rating '500mA'
+PRP Max_DC_Current '500mA'
+PRP Max_Operating_Temperature '125°C'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Number_of_Circuits '1'
+PRP Number_of_Lines '1'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Test_Frequency '100MHz'
+PRP Tolerance '25%'
+PRP Width '0.8mm'
+TOP 0 2.114446 1.398596 0 N 18 10 FB1-1
+TOP 1 2.175554 1.398596 0 N 17 3 FB1-2
+#
+# CMP 78
+CMP 27 3.775 1.89 0 N D6 BAV5004WS-7 ;0=1,1=0.0000
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 0'
+PRP Capacitance '0.9pF'
+PRP Category 'Diode'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://www.diodes.com/assets/Datasheets/BAV5004WS.pdf'
+PRP Device_Class_L1 'Discrete Semiconductors'
+PRP Device_Class_L2 'Diodes'
+PRP Device_Class_L3 'Rectifier Diodes'
+PRP Digikey_Description 'DIODE GP 350V 300MA SOD323'
+PRP Footprint_Url 'https://www.diodes.com/assets/Package-Files/SOD323.pdf'
+PRP Forward_Current '300mA'
+PRP Height '1.2mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Diodes Inc.'
+PRP Manufacturer_Part_Number 'BAV5004WS-7'
+PRP Max_Junction_Temp '+150°C'
+PRP Max_Repetitive_Reverse_Voltage '400V'
+PRP Max_Surge_Forward_Current '3A'
+PRP Mouser_Description 'Diodes - General Purpose, Power, Switching HiVolt Switching 200mW 50ns 0.9pF'
+PRP Octopart 'https://octopart.com/bav5004ws-7-diodes+inc.-46917595'
+PRP Package 'SOD323'
+PRP Peak_Reverse_Current '1uA'
+PRP Reverse_Voltage '350V'
+PRP RoHS 'TRUE'
+PRP Standoff_Height '0.05mm'
+PRP Temperature '-55°C to +150°C'
+PRP Temperature_Range_High '+150°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Value '0.9pF'
+TOP 0 3.733464 1.89 0 N 19 44 D6-1
+TOP 1 3.816536 1.89 0 N 52 2 D6-2
+#
+# CMP 79
+CMP 24 4.053622 1.4472835 90 N D5 MSL0601RGBU1 ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Category 'Diode'
+PRP Colour 'Red, Green, Blue'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://fscdn.rohm.com/en/products/databook/datasheet/opto/led/chip_multi/msl0601rgb-e.pdf'
+PRP Device_Class_L1 'Optoelectronics'
+PRP Device_Class_L2 'LEDs'
+PRP Device_Class_L3 'unset'
+PRP Digikey_Description 'SMALL AND HIGH BRIGHTNESS SIDE-V'
+PRP Forward_Current '20mA'
+PRP Forward_Voltage '2.1/3.3/3.2V'
+PRP Height '1.1mm'
+PRP Lead_Free 'Yes'
+PRP Led_Orientation 'Side View'
+PRP Luminous_Intensity '700/1250/360mcd'
+PRP Manufacturer 'Rohm'
+PRP Manufacturer_Part_Number 'MSL0601RGBU1'
+PRP Mouser_Description 'Led, Red/grn/blu, 700MCD/1.25CD/360MCD'
+PRP Octopart 'https://octopart.com/msl0601rgbu1-rohm-92811264'
+PRP Package 'MSL-0601'
+PRP Power_Dissipation '300mW'
+PRP Reverse_Voltage '5V'
+PRP RoHS 'TRUE'
+PRP Temperature '-40°C to +85°C'
+PRP Temperature_Range_High '+85°C'
+PRP Temperature_Range_Low '-40°C'
+PRP Wavelength '624/527/470nm'
+TOP 0 4.03 1.500434 90 N 19 42 D5-1
+TOP 1 4.03 1.465 90 N 2 2 D5-2
+TOP 2 4.03 1.429568 90 N 3 2 D5-3
+TOP 3 4.03 1.394134 90 N 1 2 D5-4
+#
+# CMP 80
+CMP 42 3.84 0.64 180 N D4 USBLC6-2SC6 ;0=1,1=0.0571
+PRP Capacitance_Value '3.5pF'
+PRP Clamping_Voltage '17V'
+PRP Clamping_Voltage_(Max) '17V'
+PRP Configuration 'Dual'
+PRP Datasheet_URL 'http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00050750.pdf'
+PRP Datasheet_Version 'Rev. 5, 10/2011'
+PRP Direction_Type 'Uni-Directional'
+PRP Leakage_Current '0.15uA'
+PRP Leakage_Current_(Max) '0.15uA'
+PRP Manufacturer 'STMicroelectronics'
+PRP Manufacturer_URL 'http://www.st.com/'
+PRP Mounting 'SurfaceMount'
+PRP Mounting_Style 'SurfaceMount'
+PRP Number_of_Elements '1'
+PRP Operating_Temp_Range '-40Cto125C'
+PRP Operating_Temperature_Classification 'Automotive'
+PRP Operating_Temperature_Max_Deg._C '125C'
+PRP Operating_Temperature_Min_Deg._C '-40C'
+PRP Package_/_Case 'SOT-23'
+PRP Package_Description '6-Pin Small Outline Transistor, Body 2.925 x 1.625 mm, Pitch 0.95 mm'
+PRP Package_Reference 'SOT23-6L'
+PRP Packaging 'TapeandReel'
+PRP Peak_Pulse_Current '5A'
+PRP Pin_Count '6'
+PRP Polarity 'Uni-Directional'
+PRP Product_Depth_(mm) '1.75mm'
+PRP Product_Height_(mm) '1.3mm'
+PRP Product_Length_(mm) '3.05mm'
+PRP Rad_Hardened 'No'
+PRP Reverse_Breakdown_Voltage '6V'
+PRP Reverse_Stand-off_Voltage '5V'
+PRP Suppressor_Type 'DiodeArrays'
+PRP Test_Current_(It) '1mA'
+PRP Working_Voltage '5V'
+PRP Working_Voltage_(Max) '5V'
+TOP 0 3.885276 0.602598 90 N 25 1 D4-1
+TOP 1 3.885276 0.64 90 N 80 156 D4-2
+TOP 2 3.885276 0.677402 90 N 26 1 D4-3
+TOP 3 3.794724 0.677402 90 N 24 1 D4-4
+TOP 4 3.794724 0.64 90 N 20 7 D4-5
+TOP 5 3.794724 0.602598 90 N 23 1 D4-6
+#
+# CMP 81
+CMP 3 1.815 1.555 180 N C38 15pF ;0=1,1=0.0220
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '04025A150FAT2A'
+TOP 0 1.830354 1.555 90 N 56 2 C38-1
+TOP 1 1.799646 1.555 90 N 80 101 C38-2
+#
+# CMP 82
+CMP 3 1.815 1.75 0 N C37 15pF ;0=1,1=0.0220
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '04025A150FAT2A'
+TOP 0 1.799646 1.75 270 N 80 70 C37-1
+TOP 1 1.830354 1.75 270 N 57 1 C37-2
+#
+# CMP 83
+CMP 19 2.145 1.5112041 180 N C36 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.156922 1.511204 180 N 16 2 C36-1
+TOP 1 2.133078 1.511204 180 N 80 135 C36-2
+#
+# CMP 84
+CMP 11 2.145 1.5704905 180 N C35 1uF ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Automotive_Grade 'NA'
+PRP Capacitance '1 uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 1UF 6.3V X5R 0402'
+PRP Footprint_Url 'http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_Part_Number 'CC0402MRX5R5BB105'
+PRP Material 'Ceramic'
+PRP Mouser_Description '0402 1 uF 6.3 V ±20 % Tolerance X5R SMT Multilayer Ceramic Capacitor'
+PRP Octopart 'https://octopart.com/cc0402mrx5r5bb105-yageo-9292746'
+PRP Package 'CC0402'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.2'
+PRP Value '1 uF'
+PRP Voltage_Rating '6.3 V'
+TOP 0 2.164686 1.57049 180 N 16 1 C35-1
+TOP 1 2.125316 1.57049 180 N 80 118 C35-2
+#
+# CMP 85
+CMP 19 2.145 1.2621434 180 N C34 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.156922 1.262144 180 N 17 1 C34-1
+TOP 1 2.133078 1.262144 180 N 80 71 C34-2
+#
+# CMP 86
+CMP 11 2.145 1.3214298 180 N C33 1uF ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Automotive_Grade 'NA'
+PRP Capacitance '1 uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_16.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 1UF 6.3V X5R 0402'
+PRP Footprint_Url 'http://www.yageo.com/exep/pages/download/literatures/UPY-C_GEN_24.pdf'
+PRP Height '0.55mm'
+PRP Ipc_Land_Pattern_Name 'CAPC10050X50'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'YAGEO'
+PRP Manufacturer_Part_Number 'CC0402MRX5R5BB105'
+PRP Material 'Ceramic'
+PRP Mouser_Description '0402 1 uF 6.3 V ±20 % Tolerance X5R SMT Multilayer Ceramic Capacitor'
+PRP Octopart 'https://octopart.com/cc0402mrx5r5bb105-yageo-9292746'
+PRP Package 'CC0402'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X5R'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.2'
+PRP Value '1 uF'
+PRP Voltage_Rating '6.3 V'
+TOP 0 2.164686 1.32143 180 N 17 2 C33-1
+TOP 1 2.125316 1.32143 180 N 80 72 C33-2
+#
+# CMP 87
+CMP 20 3.165 1.96 0 N C32 4.7uF ;0=1,1=0.0000
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.02inch'
+TOP 0 3.148128 1.96 0 N 18 11 C32-1
+TOP 1 3.181872 1.96 0 N 80 136 C32-2
+#
+# CMP 88
+CMP 20 2.935 1.22 90 N C31 4.7uF ;0=1,1=0.0000
+PRP Capacitance '4.7uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.5mm'
+PRP Dielectric 'X5R'
+PRP Height '0.5mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '10000'
+PRP Packaging 'Tape and Reel'
+PRP REACH_SVHC 'No SVHC'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.022inch'
+PRP Tolerance '20%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.02inch'
+TOP 0 2.935 1.236872 90 N 18 2 C31-1
+TOP 1 2.935 1.203128 90 N 80 73 C31-2
+#
+# CMP 89
+CMP 19 2.435 2.215 270 N C30 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.435 2.203078 270 N 18 3 C30-1
+TOP 1 2.435 2.226922 270 N 80 74 C30-2
+#
+# CMP 90
+CMP 19 2.4905707 2.215 270 N C29 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.49057 2.203078 270 N 18 4 C29-1
+TOP 1 2.49057 2.226922 270 N 80 75 C29-2
+#
+# CMP 91
+CMP 19 3.165 1.9 0 N C28 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 3.153078 1.9 0 N 18 5 C28-1
+TOP 1 3.176922 1.9 0 N 80 76 C28-2
+#
+# CMP 92
+CMP 19 2.875 1.22 90 N C27 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.875 1.231922 90 N 18 6 C27-1
+TOP 1 2.875 1.208078 90 N 80 77 C27-2
+#
+# CMP 93
+CMP 19 2.45 1.22 90 N C26 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.45 1.231922 90 N 18 7 C26-1
+TOP 1 2.45 1.208078 90 N 80 78 C26-2
+#
+# CMP 94
+CMP 19 2.145 1.63 180 N C25 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.156922 1.63 180 N 18 8 C25-1
+TOP 1 2.133078 1.63 180 N 80 79 C25-2
+#
+# CMP 95
+CMP 19 2.145 1.75 180 N C24 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 2.156922 1.75 180 N 18 9 C24-1
+TOP 1 2.133078 1.75 180 N 80 80 C24-2
+#
+# CMP 96
+CMP 13 3.165 1.8338238 0 N C23 2.2uF ;0=1,1=0.0000
+PRP Capacitance '2.2uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.8mm'
+PRP Dielectric 'X5R'
+PRP Height '0.8mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Thickness '0.035inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 3.140316 1.833824 0 N 58 0 C23-1
+TOP 1 3.189684 1.833824 0 N 80 120 C23-2
+#
+# CMP 97
+CMP 13 2.8088238 1.22 90 N C22 2.2uF ;0=1,1=0.0000
+PRP Capacitance '2.2uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.8mm'
+PRP Dielectric 'X5R'
+PRP Height '0.8mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Thickness '0.035inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 2.808824 1.244684 90 N 59 0 C22-1
+TOP 1 2.808824 1.195316 90 N 80 81 C22-2
+#
+# CMP 98
+CMP 3 1.775 1.8145569 180 N C21 15pF ;0=1,1=0.0220
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '04025A150FAT2A'
+TOP 0 1.790354 1.814556 90 N 60 1 C21-1
+TOP 1 1.759646 1.814556 90 N 80 82 C21-2
+#
+# CMP 99
+CMP 3 1.775 1.85 180 N C20 15pF ;0=1,1=0.0220
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '04025A150FAT2A'
+TOP 0 1.790354 1.85 90 N 61 1 C20-1
+TOP 1 1.759646 1.85 90 N 80 83 C20-2
+#
+# CMP 100
+CMP 19 1.775 2.38 270 N C19 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 1.775 2.368078 270 N 80 84 C19-1
+TOP 1 1.775 2.391922 270 N 86 1 C19-2
+#
+# CMP 101
+CMP 19 1.265 1.355 180 N C18 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 1.276922 1.355 180 N 80 85 C18-1
+TOP 1 1.253078 1.355 180 N 85 3 C18-2
+#
+# CMP 102
+CMP 5 1.045 1.565 0 N C17 0.1uF ;0=1,1=0.0354
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '0603YC104K4T4A'
+TOP 0 1.011534 1.565 270 N 80 103 C17-1
+TOP 1 1.078464 1.565 270 N 85 4 C17-2
+#
+# CMP 103
+CMP 12 0.8965349 1.5547344 180 N C16 1uF ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '1uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2019%2F%2F06%2F%2F18&fileName=CL10B105KO8NNNC-19.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 1UF 16V X7R 0603'
+PRP Height '0.9mm'
+PRP Ipc_Land_Pattern_Name 'CAPC16080X80'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung Electro-Mechanics America, Inc'
+PRP Manufacturer_Part_Number 'CL10B105KO8NNNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl10b105ko8nnnc-samsung-19018973'
+PRP Package 'CL10B105KO8NNNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '10%'
+PRP Value '1uF'
+PRP Voltage_Rating '16V'
+TOP 0 0.919172 1.554734 180 N 19 38 C16-1
+TOP 1 0.873898 1.554734 180 N 80 119 C16-2
+#
+# CMP 104
+CMP 5 0.887353 1.475 180 N C15 0.1uF ;0=1,1=0.0354
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '0603YC104K4T4A'
+TOP 0 0.920818 1.475 90 N 19 30 C15-1
+TOP 1 0.853888 1.475 90 N 80 86 C15-2
+#
+# CMP 105
+CMP 19 1.6 0.45 0 N C14 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 1.588078 0.45 0 N 80 87 C14-1
+TOP 1 1.611922 0.45 0 N 62 2 C14-2
+#
+# CMP 106
+CMP 19 3.355 1.055 270 N C13 0.1uF ;0=1,1=0.0000
+PRP Capacitance '100nF'
+PRP Case_Code_(Imperial) '1005'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Dielectric 'X5R'
+PRP Height '0.2mm'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '0.232inch'
+PRP Length '0.016inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '40000'
+PRP Packaging 'Tape and Reel'
+PRP Termination 'SMD/SMT'
+PRP Thickness '0.009inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Weight '0.000212oz'
+PRP Width '0.2mm'
+TOP 0 3.355 1.043078 270 N 80 88 C13-1
+TOP 1 3.355 1.066922 270 N 39 5 C13-2
+#
+# CMP 107
+CMP 18 3.225 2.532254 0 N C12 10uF ;0=1,1=0.0000
+PRP Capacitance '10uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Features 'Soft Termination'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Cut Tape'
+PRP RoHS_Compliant 'Yes'
+PRP Thickness '0.028inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Width '0.02inch'
+TOP 0 3.2063 2.532254 0 N 64 1 C12-1
+TOP 1 3.2437 2.532254 0 N 63 2 C12-2
+#
+# CMP 108
+CMP 21 3.045 0.4574185 90 N C11 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Dielectric 'X5R'
+PRP Length '0.063inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Thickness '0.039inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 3.045 0.485 90 N 103 7 C11-1
+TOP 1 3.045 0.429836 90 N 80 137 C11-2
+#
+# CMP 109
+CMP 21 3.1273084 0.4574185 90 N C10 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Dielectric 'X5R'
+PRP Length '0.063inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Thickness '0.039inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 3.127308 0.485 90 N 103 3 C10-1
+TOP 1 3.127308 0.429836 90 N 80 89 C10-2
+#
+# CMP 110
+CMP 21 3.2096168 0.4574185 90 N C9 47uF ;0=1,1=0.0000
+PRP Capacitance '47uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Dielectric 'X5R'
+PRP Length '0.063inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Tape and Reel'
+PRP Thickness '0.039inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 3.209616 0.485 90 N 103 4 C9-1
+TOP 1 3.209616 0.429836 90 N 80 90 C9-2
+#
+# CMP 111
+CMP 13 3.2898347 0.4730497 90 N C8 2.2uF ;0=1,1=0.0000
+PRP Capacitance '2.2uF'
+PRP Case_Code_(Imperial) '0603'
+PRP Case_Code_(Metric) '1608'
+PRP Case/Package '0603'
+PRP Contact_Plating 'Tin'
+PRP Depth '0.8mm'
+PRP Dielectric 'X5R'
+PRP Height '0.8mm'
+PRP Lead_Free 'Lead Free'
+PRP Length '1.6mm'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Package_Quantity '1'
+PRP Packaging 'Tape and Reel'
+PRP Radiation_Hardening 'No'
+PRP Thickness '0.035inch'
+PRP Tolerance '10%'
+PRP Voltage '6.3V'
+PRP Voltage_Rating '6.3V'
+PRP Voltage_Rating_(DC) '6.3V'
+PRP Width '0.031inch'
+TOP 0 3.289834 0.497734 90 N 103 5 C8-1
+TOP 1 3.289834 0.448364 90 N 80 91 C8-2
+#
+# CMP 112
+CMP 12 3.705 0.69 270 N C7 1uF ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '1uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2019%2F%2F06%2F%2F18&fileName=CL10B105KO8NNNC-19.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 1UF 16V X7R 0603'
+PRP Height '0.9mm'
+PRP Ipc_Land_Pattern_Name 'CAPC16080X80'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung Electro-Mechanics America, Inc'
+PRP Manufacturer_Part_Number 'CL10B105KO8NNNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl10b105ko8nnnc-samsung-19018973'
+PRP Package 'CL10B105KO8NNNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '10%'
+PRP Value '1uF'
+PRP Voltage_Rating '16V'
+TOP 0 3.705 0.667364 270 N 20 4 C7-1
+TOP 1 3.705 0.712638 270 N 80 92 C7-2
+#
+# CMP 113
+CMP 12 3.8 0.82 90 N C6 1uF ;0=1,1=0.0000
+PRP Automotive 'No'
+PRP Capacitance '1uF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2019%2F%2F06%2F%2F18&fileName=CL10B105KO8NNNC-19.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 1UF 16V X7R 0603'
+PRP Height '0.9mm'
+PRP Ipc_Land_Pattern_Name 'CAPC16080X80'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'Samsung Electro-Mechanics America, Inc'
+PRP Manufacturer_Part_Number 'CL10B105KO8NNNC'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/cl10b105ko8nnnc-samsung-19018973'
+PRP Package 'CL10B105KO8NNNC'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '15%'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '10%'
+PRP Value '1uF'
+PRP Voltage_Rating '16V'
+TOP 0 3.8 0.842638 90 N 19 31 C6-1
+TOP 1 3.8 0.797362 90 N 80 93 C6-2
+#
+# CMP 114
+CMP 18 3.04 1.0312992 90 N C5 10uF ;0=1,1=0.0000
+PRP Capacitance '10uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Features 'Soft Termination'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Cut Tape'
+PRP RoHS_Compliant 'Yes'
+PRP Thickness '0.028inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Width '0.02inch'
+TOP 0 3.04 1.05 90 N 19 32 C5-1
+TOP 1 3.04 1.012598 90 N 80 94 C5-2
+#
+# CMP 115
+CMP 18 2.98 1.0312992 90 N C4 10uF ;0=1,1=0.0000
+PRP Capacitance '10uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Features 'Soft Termination'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Cut Tape'
+PRP RoHS_Compliant 'Yes'
+PRP Thickness '0.028inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Width '0.02inch'
+TOP 0 2.98 1.05 90 N 19 33 C4-1
+TOP 1 2.98 1.012598 90 N 80 95 C4-2
+#
+# CMP 116
+CMP 18 2.92 1.0312992 90 N C3 10uF ;0=1,1=0.0000
+PRP Capacitance '10uF'
+PRP Case_Code_(Imperial) '0402'
+PRP Case_Code_(Metric) '1005'
+PRP Case/Package '0402'
+PRP Features 'Soft Termination'
+PRP Length '0.039inch'
+PRP Max_Operating_Temperature '85°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Packaging 'Cut Tape'
+PRP RoHS_Compliant 'Yes'
+PRP Thickness '0.028inch'
+PRP Tolerance '20%'
+PRP Voltage_Rating '6.3V'
+PRP Width '0.02inch'
+TOP 0 2.92 1.05 90 N 19 34 C3-1
+TOP 1 2.92 1.012598 90 N 80 96 C3-2
+#
+# CMP 117
+CMP 5 2.99 0.865 90 N C2 0.1uF ;0=1,1=0.0354
+PRP Manufacturer 'AVX Interconnect / Elco'
+PRP Part_Number '0603YC104K4T4A'
+TOP 0 2.99 0.898464 0 N 80 97 C2-1
+TOP 1 2.99 0.831536 0 N 65 1 C2-2
+#
+# CMP 118
+CMP 4 2.83 0.585 0 N C1 22uF ;0=1,1=0.0394
+PRP Applications 'GeneralPurpose'
+PRP Capacitance '22µF'
+PRP Category 'Capacitors'
+PRP Datasheet_URL 'http://download.siliconexpert.com/pdfs/2015/4/21/15/54/45/779/tdk_/manual/37024850441143360mlcc_commercial_general_en.pdf'
+PRP Datasheet_Version 'Mar-15'
+PRP Design_Resources '20WNon-IsolatedBuckLEDDriverUsingPLLNK460KG'
+PRP Family 'CeramicCapacitors'
+PRP Features '-'
+PRP Height_-_Seated_(Max) '-'
+PRP Kits '445-9014-KIT-ND-KITMLCC100PF-22UF060310-50V'
+PRP Lead_Spacing '-'
+PRP Lead_Style '-'
+PRP Manufacturer 'TDK'
+PRP Manufacturer_URL 'http://www.tdk.com/'
+PRP Mounting_Type 'SurfaceMount,MLCC'
+PRP Online_Catalog 'CSeries,GeneralPurpose'
+PRP Operating_Temperature '-55degC~85degC'
+PRP Other_Names '445-9077-1'
+PRP Package_/_Case '0603(1608Metric)'
+PRP Package_Description '2-Pin Surface Mount Device, Body 1.6 x 0.8 mm'
+PRP Package_Reference '603'
+PRP Packaging 'CutTape(CT)'
+PRP PCN_Part_Number 'MLCCPartNumberChange30/Nov/2012'
+PRP Product_Training_Modules 'CSeriesGeneralApplicationsSEAT,CCV,andTVCLDesignToolsGuidetoReplacinganElectrolyticCapacitorwithanMLCC'
+PRP Ratings '-'
+PRP RoHS_Information 'RoHSCertificate-MLCC'
+PRP Series 'C'
+PRP Size_/_Dimension '0.063_Lx0.031_W(1.60mmx0.80mm)'
+PRP Standard_Package '1'
+PRP Temperature_Coefficient 'X5R'
+PRP Thickness_(Max) '0.035_(0.90mm)'
+PRP Tolerance '±20%'
+PRP Voltage_-_Rated '10V'
+TOP 0 2.796536 0.585 270 N 80 102 C1-1
+TOP 1 2.863464 0.585 270 N 22 9 C1-2
+#
+# CMP 119
+CMP 1 2.805 0.445 0 N BT2 Batt_Neg ;0=1,1=0.0000
+TOP 0 2.805 0.445 0 N 80 98 BT2-1
+#
+# CMP 120
+CMP 2 2.89 0.445 0 N BT1 Batt_Pos ;0=1,1=0.0000
+TOP 0 2.89 0.443034 0 N 22 8 BT1-1
+#

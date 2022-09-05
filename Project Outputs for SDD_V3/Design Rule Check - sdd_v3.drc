@@ -1,0 +1,108 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\Gaurav\Documents\Gaurav\Social Distancing Device\Version 3\Social Distancing V3\SDD_V3\sdd_v3.PcbDoc
+Date     : 4/21/2021
+Time     : 3:37:33 PM
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P015')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.254mm) (InNamedPolygon('GND_L01_P015')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad L1-1(67.564mm,21.15mm) on Top Layer And Track (65.614mm,20.481mm)(69.514mm,20.481mm) on Keep-Out Layer 
+   Violation between Clearance Constraint: (Collision < 0.1mm) Between Pad L1-2(67.564mm,19.05mm) on Top Layer And Track (65.614mm,19.719mm)(69.514mm,19.719mm) on Keep-Out Layer 
+Rule Violations :2
+
+Processing Rule : Clearance Constraint (Gap=0.25mm) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GND_L01_P015')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (InNamedPolygon('GND_L01_P015')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.4mm) (InNetClass('PWR'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=0.4mm) (Preferred=0.254mm) (InNetClass('AUX_PWR'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=1mm) (Preferred=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Via (73.136mm,20.566mm) from Top Layer to Bottom Layer And Via (73.136mm,20.566mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Via (94.971mm,18.101mm) from Top Layer to Bottom Layer And Via (95.079mm,18.101mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad SW1-1(101.108mm,62.865mm) on Bottom Layer And Track (101.958mm,62.79mm)(102.858mm,62.79mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.2mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.2mm < 0.254mm) Between Pad SW1-2(101.183mm,59.565mm) on Bottom Layer And Track (101.958mm,59.64mm)(102.858mm,59.64mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.2mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.217mm < 0.254mm) Between Pad SW3-3(30.783mm,35.753mm) on Top Layer And Text "EN" (28.448mm,35.433mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.217mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.224mm < 0.254mm) Between Pad SW4-2(43.368mm,58.977mm) on Top Layer And Text "BOOT" (44.069mm,57.912mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.224mm]
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=25.4mm) (InNetClass('SDCARD'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+   Waived Violation between Hole Size Constraint: (3.4mm > 2.54mm) Pad Free-1(101.277mm,11.442mm) on Multi-Layer Actual Hole Size = 3.4mmWaived by Zong Chok at 3/22/2021 12:12:27 PMIntentional
+Waived Violations :1
+
+Waived Violations Of Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C12-1(81.44mm,64.319mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:31 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C12-1(81.44mm,64.319mm) on Top Layer And Track (81.315mm,64.944mm)(82.515mm,64.944mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:38 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C12-2(82.39mm,64.319mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:41 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C12-2(82.39mm,64.319mm) on Top Layer And Track (81.315mm,64.944mm)(82.515mm,64.944mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C20-1(45.475mm,46.99mm) on Top Layer And Track (46.09mm,45.759mm)(46.09mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C21-1(45.475mm,46.09mm) on Top Layer And Track (46.09mm,45.759mm)(46.09mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C3-1(74.168mm,26.67mm) on Top Layer And Track (73.543mm,25.595mm)(73.543mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C3-1(74.168mm,26.67mm) on Top Layer And Track (74.793mm,25.595mm)(74.793mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C3-2(74.168mm,25.72mm) on Top Layer And Track (73.543mm,25.595mm)(73.543mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C3-2(74.168mm,25.72mm) on Top Layer And Track (74.793mm,25.595mm)(74.793mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C4-1(75.692mm,26.67mm) on Top Layer And Track (75.067mm,25.595mm)(75.067mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C4-1(75.692mm,26.67mm) on Top Layer And Track (76.317mm,25.595mm)(76.317mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C4-2(75.692mm,25.72mm) on Top Layer And Track (75.067mm,25.595mm)(75.067mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C4-2(75.692mm,25.72mm) on Top Layer And Track (76.317mm,25.595mm)(76.317mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C5-1(77.216mm,26.67mm) on Top Layer And Track (76.591mm,25.595mm)(76.591mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C5-1(77.216mm,26.67mm) on Top Layer And Track (77.841mm,25.595mm)(77.841mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C5-2(77.216mm,25.72mm) on Top Layer And Track (76.591mm,25.595mm)(76.591mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.225mm < 0.254mm) Between Pad C5-2(77.216mm,25.72mm) on Top Layer And Track (77.841mm,25.595mm)(77.841mm,26.795mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.225mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R25-1(82.465mm,63.119mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R25-2(81.715mm,63.119mm) on Top Layer And Track (81.315mm,63.694mm)(82.515mm,63.694mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R55-1(48.54mm,47.117mm) on Top Layer And Track (47.89mm,45.759mm)(47.89mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R56-1(48.54mm,46.101mm) on Top Layer And Track (47.89mm,45.759mm)(47.89mm,47.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R57-1(54.908mm,37.179mm) on Top Layer And Track (53.952mm,37.804mm)(55.014mm,37.804mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad R57-2(54.058mm,37.179mm) on Top Layer And Track (53.952mm,37.804mm)(55.014mm,37.804mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad TP1-1(50.704mm,59.436mm) on Bottom Layer And Text "RXD" (51.975mm,62.357mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad TP13-1(53.213mm,59.436mm) on Bottom Layer And Text "DTR" (54.166mm,62.357mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+   Waived Violation between Silk To Solder Mask Clearance Constraint: (0.212mm < 0.254mm) Between Pad U2-1(91.231mm,15.723mm) on Top Layer And Text "U2" (90.266mm,14.459mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.212mm]Waived by Zong Chok at 3/22/2021 12:12:53 PMIntentional
+Waived Violations :27
+
+
+Violations Detected : 8
+Waived Violations : 28
+Time Elapsed        : 00:00:02
